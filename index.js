@@ -1,16 +1,15 @@
-const express = require("express"); //requires express module
-const socket = require("socket.io"); //requires socket.io module
-const fs = require("fs");
-const app = express();
-const lodash = require("lodash");
-const { values } = require("lodash");
-var PORT = process.env.PORT || 3000;
-const server = app.listen(PORT); //tells to host server on localhost:3000
+import express from "express"; //requires express module
+import lodash from "lodash";
+import http from "http";
+import cors from "cors";
+import { Server } from "socket.io";
+import testRouter from "./controllers/test.js";
 
-//Playing variables:
-app.use(express.static("public")); //show static files in 'public' directory
-console.log("Server is running");
-const io = socket(server);
+var PORT = process.env.PORT || 3000;
+
+const app = express();
+const server = http.createServer(app);
+const io = new Server(server);
 
 let roomId_roomAdmin_map = {};
 let roomId_players_map = {};
@@ -32,8 +31,8 @@ const printAllData = () => {
 };
 
 const deletePlayerData = ({ roomId, playerId }) => {
-  delete roomId_players_map[roomId][playerId];
-  delete roomId_players_balance_map[roomId][playerId];
+  delete roomId_players_map[roomId]?.[playerId];
+  delete roomId_players_balance_map[roomId]?.[playerId];
   printAllData();
 };
 
@@ -62,12 +61,15 @@ const getRoomCount = (roomId) => {
 };
 
 const getJoinedPlayers = (roomId) => {
+  console.log("lol");
+  if (!roomId_players_map[roomId]) return null;
   return Object.entries(roomId_players_map[roomId]).map(([key, value]) => {
     return { playerId: key, playerName: value };
   });
 };
 
 const getJoinedPlayersCount = (roomId) => {
+  console.log("getting joined players count");
   const arr = getJoinedPlayers(roomId);
   if (!lodash.isEmpty(arr)) {
     return arr.length;
@@ -80,7 +82,7 @@ const savePlayers = ({ roomId, playerName, playerId }) => {
     ? { ...roomId_players_map[roomId], [playerId]: playerName }
     : { [playerId]: playerName };
 
-  console.log("player data saved", roomId_players_map[roomId]);
+  console.log("player data saved : ", roomId_players_map[roomId]);
 };
 
 const isCountReachedMax = (roomId) => {
@@ -101,7 +103,7 @@ const initializeBalanceForPlayer = ({ roomId, playerId }) => {
   console.log("initialized balance : ", roomId_players_balance_map[roomId]);
 };
 
-const getBalanceOfPlayer = (roomId, playerId) => {
+const getBalanceOfPlayer = ({ roomId, playerId }) => {
   if (roomId_players_balance_map[roomId]) {
     return roomId_players_balance_map[roomId][playerId];
   } else {
@@ -111,80 +113,100 @@ const getBalanceOfPlayer = (roomId, playerId) => {
 
 //Socket.io Connection------------------
 io.on("connection", (socket) => {
+  let get_joined_players_intervalId;
   // connected once create / join.
-  console.log("Connected", socket.id);
+  console.log("Connected to server", socket.id);
   let playerId = socket.id;
   // create room event
   socket.on("create", (stringData) => {
-    data = JSON.parse(stringData);
-    console.log("Create Room", stringData);
+    let data = JSON.parse(stringData);
+    console.log("Room Created : ", stringData);
     let playerName = data.playerName;
     let roomId = socket.id.toString().slice(0, 5);
     let numberOfPlayers = data.numberOfPlayers;
     try {
       socket.join(roomId);
-
-      console.log("Room Created : ", roomId);
+      io.to(roomId).emit("user_joined", socket.id);
+      io.to(roomId).emit("room_id", roomId, playerId);
+      console.log("Room Created with ID: ", roomId);
 
       saveAdmin({ roomId, playerId });
-
-      io.to(roomId).emit("user_joined", socket.id);
-
-      io.emit("room_id", roomId, playerId);
-    } catch (e) {
-      console.log(e);
-    } finally {
       savePlayers({ roomId, playerName, playerId });
       saveRoomCount({ roomId, numberOfPlayers });
       initializeBalanceForPlayer({ roomId, playerId });
+    } catch (e) {
+      console.log(e);
     }
   });
 
   // join room event
   socket.on("join", (stringData) => {
-    data = JSON.parse(stringData);
+    let data = JSON.parse(stringData);
     let roomId = data.roomId;
     let playerName = data.playerName;
     console.log("Join Room", stringData);
     try {
       socket.join(roomId);
-      console.log(socket.rooms);
       io.to(roomId).emit("user_joined", socket.id);
-    } catch (e) {
-      console.log(e);
-    } finally {
       savePlayers({ roomId, playerName, playerId });
       initializeBalanceForPlayer({ roomId, playerId });
-      if (isCountReachedMax(roomId)) {
-        console.log("Count Reached");
-        io.timeout(5000).emit("all_joined", true);
-      }
+    } catch (e) {
+      console.log(e);
     }
   });
 
-  //get admin name event
-  socket.on("get_admin", (roomId) => {
-    io.emit("get_admin", getRoomAdmin(roomId));
+  //get all connected players
+  socket.on("get_joined_players", (roomId, pid) => {
+    console.log("get_joined_players", getJoinedPlayers(roomId), pid);
+    get_joined_players_intervalId = setInterval(() => {
+      let playersList = getJoinedPlayers(roomId);
+      if (playersList) {
+        io.to(roomId).emit("get_joined_players", playersList);
+      }
+    }, 2000);
   });
 
-  //get all connected players
-  socket.on("get_joined_players", (roomId) => {
-    console.log("get_joined_players", getJoinedPlayers(roomId));
-    io.emit("get_joined_players", getJoinedPlayers(roomId));
+  //check if all joined
+  socket.on("all_joined", (roomId) => {
+    function foo() {
+      if (isCountReachedMax(roomId)) {
+        console.log("Count Reached Max");
+        io.to(roomId).emit("all_joined", true);
+      }
+    }
+    setTimeout(foo, 5000);
+  });
+
+  socket.on("stop_timer", () => {
+    clearInterval(get_joined_players_intervalId);
   });
 
   socket.on("end", (data) => {
     const { roomId, playerId } = JSON.parse(data);
 
+    console.log("Player getting disconnected ... ", roomId, " - ", playerId);
+
     if (playerId === getRoomAdmin(roomId)) {
       deleteRoomData(roomId);
-      io.to(roomId).emit("exit", null);
     } else {
       deletePlayerData({ roomId, playerId });
-      io.emit("refresh_players", true);
-      io.to(roomId).emit("exit", playerId);
     }
-
     socket.disconnect();
   });
 });
+
+export { io };
+
+// ------ REST API ---------
+
+app.use(express.json());
+app.use(cors());
+app.use("/test", testRouter);
+
+app.get("/", (req, res) => {
+  res.send("Hello");
+});
+
+server.listen(PORT, () => {
+  console.log("Server up and running on port ${PORT}");
+}); //tells to host server on localhost:3000
