@@ -1,14 +1,16 @@
-import express from "express"; //requires express module
+import express from "express";
 import http from "http";
 import cors from "cors";
 import { Server } from "socket.io";
 import testRouter from "./controllers/test.js";
 import fs from "fs";
 import { clearInterval } from "timers";
-import { Room } from "./room.js";
+import { Room } from "./room_class.js";
+import * as dotenv from "dotenv";
+import { env } from "process";
+dotenv.config();
 
-// eslint-disable-next-line no-undef
-var PORT = process.env.PORT || 3000;
+var PORT = env.PORT || 3000;
 
 const app = express();
 const server = http.createServer(app);
@@ -168,6 +170,7 @@ io.on("connection", (socket) => {
     //Next player
     socket.on("next_player", (data) => {
         console.log("next player called ... ");
+        // eslint-disable-next-line no-unused-vars
         const { roomId, playerId } = JSON.parse(data);
 
         // Clear previous timer
@@ -185,7 +188,7 @@ io.on("connection", (socket) => {
         }, 1000);
 
         //
-        room.refreshNewPlayer({ roomId, playerId, forceRefresh: true });
+        room.refreshNewPlayer({ roomId, forceRefresh: true });
         io.to(roomId).emit("cricketer_data", room.getCurrentPlayer(roomId)); // access from current player map
     });
 

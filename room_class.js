@@ -1,12 +1,13 @@
 import lodash from "lodash";
-
-const BALANCE = 1000;
+import { addAdditionalDetails, getRandomInt } from "./utils.js";
 
 export class Room {
     constructor(cricketersRawData) {
         this.cricketersData = JSON.parse(cricketersRawData);
         this.cricketersDataLength = this.cricketersData.length - 1;
     }
+
+    #wallet = 1000;
 
     // room ID Maps
     roomId_roomAdmin_map = {};
@@ -34,13 +35,18 @@ export class Room {
             this.roomId_count_map,
             "\n",
             "roomId_roomAdmin_map - ",
-            this.roomId_roomAdmin_map
+            this.roomId_roomAdmin_map,
+            "\n",
+            "roomId_sold_cricketers_map - ",
+            this.roomId_sold_cricketers_map,
+            "\n",
+            "roomId_current_cricketer_map - ",
+            this.roomId_current_cricketer_map,
+            "\n",
+            "roomId_auctioned_cricketer_map - ",
+            this.roomId_auctioned_cricketer_map
         );
     };
-
-    getRandomInt(max) {
-        return Math.floor(Math.random() * max);
-    }
 
     deletePlayerData = ({ roomId, playerId }) => {
         delete this.roomId_players_map[roomId]?.[playerId];
@@ -115,7 +121,7 @@ export class Room {
     };
 
     initializeBalanceForPlayer = ({ roomId, playerId }) => {
-        const balanceObj = { [playerId]: BALANCE };
+        const balanceObj = { [playerId]: this.#wallet };
         this.roomId_players_balance_map[roomId] = this
             .roomId_players_balance_map[roomId]
             ? { ...this.roomId_players_balance_map[roomId], ...balanceObj }
@@ -135,8 +141,9 @@ export class Room {
     };
 
     getNextPlayer = (roomId) => {
+        // eslint-disable-next-line no-constant-condition
         while (true) {
-            let pIndex = this.getRandomInt(this.cricketersDataLength);
+            let pIndex = getRandomInt(this.cricketersDataLength);
             console.log("random number is ", pIndex);
             let nextPlayer = this.cricketersData[pIndex];
             if (
@@ -168,15 +175,6 @@ export class Room {
         return this.roomId_current_cricketer_map[roomId];
     };
 
-    addAdditionalDetails = (data) => {
-        const newData = lodash.cloneDeep(data);
-
-        newData["currentBid"] = Math.floor(newData["base"]);
-        newData["highestBidderId"] = "";
-
-        return newData;
-    };
-
     updateCurrentPlayerStatus = ({ roomId, amount, playerId }) => {
         let curr = this.getCurrentPlayer(roomId);
         curr["currentBid"] += amount;
@@ -185,14 +183,14 @@ export class Room {
         this.saveCurrentPlayer(roomId, curr);
     };
 
-    refreshNewPlayer = ({ roomId, playerId, forceRefresh = false }) => {
+    refreshNewPlayer = ({ roomId, forceRefresh = false }) => {
         let nPlayer;
         const currentPlayer = this.getCurrentPlayer(roomId);
         if (currentPlayer && !forceRefresh) {
             nPlayer = currentPlayer;
         } else {
             nPlayer = this.getNextPlayer(roomId);
-            nPlayer = this.addAdditionalDetails(nPlayer);
+            nPlayer = addAdditionalDetails(nPlayer);
             this.saveCurrentPlayer(roomId, nPlayer);
             this.saveAuctionedPlayer(roomId, nPlayer);
         }
