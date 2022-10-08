@@ -9,6 +9,8 @@ export class Room {
 
     #wallet = 1000;
 
+    active_roomIds = {};
+
     // room ID Maps
     roomId_roomAdmin_map = {};
     roomId_players_map = {};
@@ -62,6 +64,7 @@ export class Room {
         delete this.roomId_players_balance_map[roomId];
         delete this.roomId_count_map[roomId];
         delete this.roomId_roomAdmin_map[roomId];
+        delete this.active_roomIds[roomId];
         this.printAllData();
     };
 

@@ -2,7 +2,7 @@ import express from "express";
 import http from "http";
 import cors from "cors";
 import { Server } from "socket.io";
-import testRouter from "./controllers/test.js";
+import apiRouter from "./controllers/api.js";
 import fs from "fs";
 import { clearInterval } from "timers";
 import { Room } from "./room_class.js";
@@ -43,6 +43,7 @@ io.on("connection", (socket) => {
             io.to(roomId).emit("room_id", roomId, playerId);
             console.log("Room Created with ID: ", roomId);
 
+            room.active_roomIds[roomId] = true;
             room.saveAdmin({ roomId, playerId });
             room.savePlayers({ roomId, playerName, playerId });
             room.saveRoomCount({ roomId, numberOfPlayers });
@@ -58,6 +59,13 @@ io.on("connection", (socket) => {
         let roomId = data.roomId;
         let playerName = data.playerName;
         console.log("Join Room", stringData);
+
+        if (!room.active_roomIds[roomId]) {
+            io.to(playerId).emit("no_room");
+            console.log("No Room as ", roomId);
+            return;
+        }
+
         try {
             socket.join(roomId);
             io.to(roomId).emit("user_joined", socket.id);
@@ -255,11 +263,7 @@ export { io, room };
 
 app.use(express.json());
 app.use(cors());
-app.use("/api", testRouter);
-
-app.get("/", (req, res) => {
-    res.send("Hello");
-});
+app.use("/api", apiRouter);
 
 server.listen(PORT, () => {
     console.log(`Server up and running on port ${PORT}`);

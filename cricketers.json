@@ -1,1150 +1,1150 @@
 [
-  {
-    "imgsrc": "https://etvbharatimages.akamaized.net/etvbharat/prod-images/1_1812newsroom_1576678151_489.webp",
-    "player": "Ravisrinivasan Sai Kishore",
-    "type": "Bowler",
-    "nationality": "India",
-    "base": 20.0
-  },
-  {
-    "imgsrc": "https://www.cricket.com.au/-/media/Players/Men/International/Australia/ODI/Josh-Hazlewood-ODI1819.ashx",
-    "player": "Josh Hazlewood",
-    "type": "Bowler",
-    "nationality": "Australia",
-    "base": 200.0
-  },
-  {
-    "imgsrc": "https://st3.cricketcountry.com/wp-content/uploads/cricket/20140529095533.jpeg",
-    "player": "Piyush Chawla",
-    "type": "Bowler",
-    "nationality": "India",
-    "base": 100.0
-  },
-  {
-    "imgsrc": "https://www.kiaoval.com/wp-content/uploads/2016/03/squad-sam-curran-min.jpg",
-    "player": "Sam Curran",
-    "type": "Bowling Allrounder",
-    "nationality": "England",
-    "base": 100.0
-  },
-  {
-    "imgsrc": "https://static.toiimg.com/photo/msid-74174942/74174942.jpg?resizemode=4&width=400",
-    "player": "Shardul Thakur",
-    "type": "Bowler",
-    "nationality": "India",
-    "base": 150.0
-  },
-  {
-    "imgsrc": "https://powersportz.com/wp-content/uploads/2020/02/KM-Asif-bio.jpg",
-    "player": "KM Asif",
-    "type": "Bowler",
-    "nationality": "India",
-    "base": 150.0
-  },
-  {
-    "imgsrc": "https://images.indianexpress.com/2019/12/deepak-chahar-1.jpg",
-    "player": "Deepak Chahar",
-    "type": "Bowler",
-    "nationality": "India",
-    "base": 150.0
-  },
-  {
-    "imgsrc": "https://statics.sportskeeda.com/editor/2018/03/12e28-1521300186-800.jpg",
-    "player": "Imran Tahir",
-    "type": "Bowler",
-    "nationality": "South Africa",
-    "base": 150.0
-  },
-  {
-    "imgsrc": "https://new-img.patrika.com/upload/mediafiles/2015/07/06/karn-1436170958_835x547.jpg",
-    "player": "Karn Sharma",
-    "type": "Bowler",
-    "nationality": "India",
-    "base": 150.0
-  },
-  {
-    "imgsrc": "https://starsunfolded.com/wp-content/uploads/2015/09/Harbhajan-Singh3-1280x720.jpg",
-    "player": "Harbhajan Singh",
-    "type": "Bowler",
-    "nationality": "India",
-    "base": 150.0
-  },
-  {
-    "imgsrc": "https://s01.sgp1.cdn.digitaloceanspaces.com/article/124803-bxiatiiqnn-1564589492.jpeg",
-    "player": "N Jagadeesan",
-    "type": "WK-Batsman",
-    "nationality": "India",
-    "base": 150.0
-  },
-  {
-    "imgsrc": "https://iplstatic.s3.amazonaws.com/players/284/1560.png",
-    "player": "Monu Kumar",
-    "type": "Bowling Allrounder",
-    "nationality": "India",
-    "base": 150.0
-  },
-  {
-    "imgsrc": "https://admin.thecricketer.com/weblab/Sites/96c8b790-b593-bfda-0ba4-ecd3a9fdefc2/resources/images/site/mitchsantnerheadshot-min.jpg",
-    "player": "Mitchell Santner",
-    "type": "Bowling Allrounder",
-    "nationality": "New Zealand",
-    "base": 150.0
-  },
-  {
-    "imgsrc": "https://admin.thecricketer.com/weblab/Sites/96c8b790-b593-bfda-0ba4-ecd3a9fdefc2/resources/images/site/jadejaheadshot-min.jpg",
-    "player": "Ravindra Jadeja",
-    "type": "Bowling Allrounder",
-    "nationality": "India",
-    "base": 150.0
-  },
-  {
-    "imgsrc": "https://icc-corp-2013-live.s3.amazonaws.com/players/284/3746.png",
-    "player": "Lungi Ngidi",
-    "type": "Bowler",
-    "nationality": "South Africa",
-    "base": 150.0
-  },
-  {
-    "imgsrc": "https://www.cricket.com.au/-/media/Players/Men/International/India/ODIWC19/Kedar-Jadhav-CWC19.ashx",
-    "player": "Kedar Jadhav",
-    "type": "Batting Allrounder",
-    "nationality": "India",
-    "base": 150.0
-  },
-  {
-    "imgsrc": "https://pbs.twimg.com/profile_images/823430776238866432/kPSaK3lQ.jpg",
-    "player": "Dwayne Bravo",
-    "type": "Batting Allrounder",
-    "nationality": "West Indies",
-    "base": 150.0
-  },
-  {
-    "imgsrc": "https://iplstatic.s3.amazonaws.com/players/284/5443.png",
-    "player": "Ruturaj Gaikwad",
-    "type": "Batsman",
-    "nationality": "India",
-    "base": 150.0
-  },
-  {
-    "imgsrc": "https://th.thgim.com/sport/cricket/article19194972.ece/alternates/FREE_435/TH02VIJAY1",
-    "player": "Murali Vijay",
-    "type": "Batsman",
-    "nationality": "India",
-    "base": 150.0
-  },
-  {
-    "imgsrc": "https://icc-corp-2013-live.s3.amazonaws.com/players/champions-trophy-2017/284/24.png",
-    "player": "Faf du Plessis",
-    "type": "Batsman",
-    "nationality": "South Africa",
-    "base": 150.0
-  },
-  {
-    "imgsrc": "https://img.etimg.com/thumb/width-640,height-480,imgsize-67258,resizemode-1,msid-48239934/cricketers-have-no-role-in-spot-fixing-suresh-raina.jpghttps://img.etimg.com/thumb/width-640,height-480,imgsize-67258,resizemode-1,msid-48239934/cricketers-have-no-role-in-spot-fixing-suresh-raina.jpg",
-    "player": "Suresh Raina",
-    "type": "Batsman",
-    "nationality": "India",
-    "base": 150.0
-  },
-  {
-    "imgsrc": "https://cricketaddictor.com/wp-content/uploads/2019/09/715005-ms-dhoni-1024x576.jpg",
-    "player": "MS Dhoni",
-    "type": "WK-Batsman",
-    "nationality": "India",
-    "base": 150.0
-  },
-  {
-    "imgsrc": "https://assets.thehansindia.com/h-upload/feeds/2019/07/02/191855-ambati-rayudu.jpg ",
-    "player": "Ambati Rayudu",
-    "type": "Batsman",
-    "nationality": "India",
-    "base": 150.0
-  },
-  {
-    "imgsrc": "https://www.sydneythunder.com.au/-/media/sydneythundercomau/Images/180927_THUNDER_17_Shane_929.ashx?mw=1200",
-    "player": "Shane Watson",
-    "type": "Batting Allrounder",
-    "nationality": "Australia",
-    "base": 150.0
-  },
-  {
-    "imgsrc": "https://circleofcricket.com/post_image/post_image_579326b.png",
-    "player": "Isuru Udana",
-    "type": "Bowling Allrounder",
-    "nationality": "Sri Lanka",
-    "base": 50.0
-  },
-  {
-    "imgsrc": "https://img1.hscicdn.com/image/upload/f_auto/esci/i/cricket/cricinfo/1213885_1296x729.jpg",
-    "player": "Shahbaz Ahmed",
-    "type": "WK-Batsman",
-    "nationality": "India",
-    "base": 20.0
-  },
-  {
-    "imgsrc": "https://thesportsrush.com/wp-content/uploads/2020/03/Dale-Steyn-ODI.jpg",
-    "player": "Dale Steyn",
-    "type": "Bowler",
-    "nationality": "South Africa",
-    "base": 200.0
-  },
-  {
-    "imgsrc": "https://insidesport.co/moneyball/img/singleplayer/PavanDeshpande1.jpg",
-    "player": "Pavan Deshpande",
-    "type": "Batting Allrounder",
-    "nationality": "India",
-    "base": 20.0
-  },
-  {
-    "imgsrc": "https://sportstar.thehindu.com/cricket/article31056695.ece/ALTERNATES/LANDSCAPE_1200/Kane-Richardson",
-    "player": "Kane Richardson",
-    "type": "Bowler",
-    "nationality": "Australia",
-    "base": 150.0
-  },
-  {
-    "imgsrc": "https://www.sydneysixers.com.au/-/media/sydneysixerscomau/Josh-Philippe-WEB.ashx",
-    "player": "Josh Philippe",
-    "type": "WK-Batsman",
-    "nationality": "Australia",
-    "base": 20.0
-  },
-  {
-    "imgsrc": "https://www.cricketcountry.com/wp-content/uploads/2015/09/Chris-Morris.jpg",
-    "player": "Chris Morris",
-    "type": "Bowling Allrounder",
-    "nationality": "South Africa",
-    "base": 150.0
-  },
-  {
-    "imgsrc": "https://img.cricketworld.com/images/f-066132/australia's-aaron-finch-after-the-coin-toss-before-the-match.jpg",
-    "player": "Aaron Finch",
-    "type": "Batsman",
-    "nationality": "Australia",
-    "base": 100.0
-  },
-  {
-    "imgsrc": "https://cricketaddictor.com/wp-content/uploads/2020/01/298924.jpg",
-    "player": "Navdeep Saini",
-    "type": "Bowler",
-    "nationality": "India",
-    "base": 150.0
-  },
-  {
-    "imgsrc": "https://www.telegraph.co.uk/content/dam/cricket/2018/06/30/TELEMMGLPICT000168007413_trans%2B%2B56SURFa-j0RBa9h9sFlLKbPgx3-FtLkWb4JLoQFZ_DE.jpeg",
-    "player": "Washington Sundar",
-    "type": "Batting Allrounder",
-    "nationality": "India",
-    "base": 150.0
-  },
-  {
-    "imgsrc": "https://cdn.dnaindia.com/sites/default/files/styles/full/public/2019/12/05/884044-shivam-dube.jpg",
-    "player": "Shivam Dube",
-    "type": "Bowling Allrounder",
-    "nationality": "India",
-    "base": 150.0
-  },
-  {
-    "imgsrc": "https://img.manoramaonline.com/content/dam/mm/en/sports/cricket/images/2019/10/28/devdutt-padikkal.jpg",
-    "player": "Devdutt Padikkal",
-    "type": "Batsman",
-    "nationality": "India",
-    "base": 150.0
-  },
-  {
-    "imgsrc": "https://superstarsbio.com/wp-content/uploads/2020/03/Gurkeerat-Singh.png",
-    "player": "Gurkeerat Singh Mann",
-    "type": "Batsman",
-    "nationality": "India",
-    "base": 150.0
-  },
-  {
-    "imgsrc": "https://akm-img-a-in.tosshub.com/indiatoday/images/story/201910/AP19294297874555-770x433.jpeg?vdBUmuSPRo7AOR7RNOjV.Az45D8Q1fcA",
-    "player": "Umesh Yadav",
-    "type": "Bowler",
-    "nationality": "India",
-    "base": 150.0
-  },
-  {
-    "imgsrc": "https://resources.platform.iplt20.com/IPL/photo/2017/05/14/121b9b25-ba98-483c-8ebd-66b5327a8958/Negi.jpg",
-    "player": "Pawan Negi",
-    "type": "Bowling Allrounder",
-    "nationality": "India",
-    "base": 150.0
-  },
-  {
-    "imgsrc": "https://images.indianexpress.com/2018/09/siraj-759.jpg",
-    "player": "Mohammed Siraj",
-    "type": "Bowler",
-    "nationality": "India",
-    "base": 150.0
-  },
-  {
-    "imgsrc": "https://www.hindustantimes.com/rf/image_size_1200x900/HT/p2/2019/11/18/Pictures/ipl-t20-2019-rcb-vs-kxip_3a293600-09ee-11ea-a248-2cd23afa2126.jpg",
-    "player": "Parthiv Patel",
-    "type": "WK-Batsman",
-    "nationality": "India",
-    "base": 150.0
-  },
-  {
-    "imgsrc": "https://images.indianexpress.com/2019/12/ab-de-villiers-1200.jpg",
-    "player": "AB de Villiers",
-    "type": "WK-Batsman",
-    "nationality": "South Africa",
-    "base": 150.0
-  },
-  {
-    "imgsrc": "https://images.newindianexpress.com/uploads/user/imagelibrary/2019/11/2/w900X450/chahal_-_ap.jpg",
-    "player": "Yuzvendra Chahal",
-    "type": "Bowler",
-    "nationality": "India",
-    "base": 150.0
-  },
-  {
-    "imgsrc": "https://www.wisden.com/wp-content/uploads/2019/07/GettyImages-1163551824-e1564415140452-980x530.jpg",
-    "player": "Moeen Ali",
-    "type": "Batting Allrounder",
-    "nationality": "England",
-    "base": 150.0
-  },
-  {
-    "imgsrc": "https://www.thestatesman.com/wp-content/uploads/2019/12/Virat-4.jpg",
-    "player": "Virat Kohli",
-    "type": "Batsman",
-    "nationality": "India",
-    "base": 150.0
-  },
-  {
-    "imgsrc": "https://www.crictracker.com/wp-content/uploads/2020/02/Lalit-Yadav.jpg",
-    "player": "Lalit Yadav",
-    "type": "Batting Allrounder",
-    "nationality": "India",
-    "base": 20.0
-  },
-  {
-    "imgsrc": "https://imageresizer.static9.net.au/ScOC4L4lOA5B13-y0CTvbDHxYfg=/0x0/https%3A%2F%2Fprod.static9.net.au%2Ffs%2F058bbb5c-7ab5-4777-9439-04331893eed0",
-    "player": "Marcus Stoinis",
-    "type": "Batting Allrounder",
-    "nationality": "Australia",
-    "base": 100.0
-  },
-  {
-    "imgsrc": "https://static.toiimg.com/thumb/imgsize-196167,msid-55331178,width-400,resizemode-4/55331178.jpg",
-    "player": "Tushar Deshpande",
-    "type": "Bowler",
-    "nationality": "India",
-    "base": 20.0
-  },
-  {
-    "imgsrc": "https://smedia2.intoday.in/indiatoday/images/stories/2013aug/sharma_660_080213051907.jpg",
-    "player": "Mohit Sharma",
-    "type": "Bowler",
-    "nationality": "India",
-    "base": 50.0
-  },
-  {
-    "imgsrc": "https://images.indianexpress.com/2018/10/hetmyer.jpg",
-    "player": "Shimron Hetmyer",
-    "type": "Batsman",
-    "nationality": "West Indies",
-    "base": 50.0
-  },
-  {
-    "imgsrc": "https://c.ndtvimg.com/2019-10/h0qll33g_alex-carey-afp_625x300_29_October_19.jpg",
-    "player": "Alex Carey",
-    "type": "WK-Batsman",
-    "nationality": "Australia",
-    "base": 50.0
-  },
-  {
-    "imgsrc": "https://static.toiimg.com/photo/msid-70181982/70181982.jpg?resizemode=4&width=400",
-    "player": "Chris Woakes",
-    "type": "Bowling Allrounder",
-    "nationality": "England",
-    "base": 150.0
-  },
-  {
-    "imgsrc": "https://www.telegraph.co.uk/content/dam/cricket/2018/01/15/TELEMMGLPICT000151263260_trans%2B%2BUCbohUkrzNv-AqVb-6cvh7nfh3zlJxH1EiHuW99LE_U.jpeg",
-    "player": "Jason Roy",
-    "type": "Batsman",
-    "nationality": "England",
-    "base": 150.0
-  },
-  {
-    "imgsrc": "https://images.newindianexpress.com/uploads/user/imagelibrary/2019/4/25/w900X450/Ajinkya_Rahane-PTI.jpg",
-    "player": "Ajinkya Rahane",
-    "type": "Batsman",
-    "nationality": "India",
-    "base": 150.0
-  },
-  {
-    "imgsrc": "https://crickettimes.com/wp-content/uploads/2020/02/Ravichandran-Ashwin-1.jpg",
-    "player": "Ravichandran Ashwin",
-    "type": "Bowling Allrounder",
-    "nationality": "India",
-    "base": 150.0
-  },
-  {
-    "imgsrc": "https://statics.sportskeeda.com/wp-content/uploads/2015/05/harshal-patel-1431337603.jpg",
-    "player": "Harshal Patel",
-    "type": "Bowler",
-    "nationality": "India",
-    "base": 150.0
-  },
-  {
-    "imgsrc": "https://www.hindustantimes.com/rf/image_size_960x540/HT/p2/2018/04/18/Pictures/ipl-2018-kxip-v-s-rcb_331b85b6-432f-11e8-9c90-d40a08109dff.jpg",
-    "player": "Axar Patel",
-    "type": "Bowling Allrounder",
-    "nationality": "India",
-    "base": 150.0
-  },
-  {
-    "imgsrc": "https://www.crictracker.com/wp-content/uploads/2019/04/Keemo-Paul-wicket.jpg",
-    "player": "Keemo Paul",
-    "type": "Bowling Allrounder",
-    "nationality": "West Indies",
-    "base": 150.0
-  },
-  {
-    "imgsrc": "https://cdn.dnaindia.com/sites/default/files/styles/full/public/2018/02/14/651416-kagiso-rabada-reuters.jpg",
-    "player": "Kagiso Rabada",
-    "type": "Bowler",
-    "nationality": "South Africa",
-    "base": 150.0
-  },
-  {
-    "imgsrc": "https://s01.sgp1.cdn.digitaloceanspaces.com/article/117772-yjgaqaowsx-1555570303.jpg",
-    "player": "Sandeep Lamichhane",
-    "type": "Bowler",
-    "nationality": "Nepal",
-    "base": 150.0
-  },
-  {
-    "imgsrc": "https://statics.sportskeeda.com/wp-content/uploads/2017/05/18492795_10209115408542972_245335147_n-1494854889-800.jpg",
-    "player": "Avesh Khan",
-    "type": "Bowler",
-    "nationality": "India",
-    "base": 150.0
-  },
-  {
-    "imgsrc": "https://images.indianexpress.com/2020/05/Amit-Mishra-759.jpeg",
-    "player": "Amit Mishra",
-    "type": "Bowler",
-    "nationality": "India",
-    "base": 150.0
-  },
-  {
-    "imgsrc": "https://resources.pulse.icc-cricket.com/ICC/photo/2018/08/04/5d3cae40-6744-47f2-8407-a2fe752d1389/GettyImages-1010184382.jpg",
-    "player": "Ishant Sharma",
-    "type": "Bowler",
-    "nationality": "India",
-    "base": 150.0
-  },
-  {
-    "imgsrc": "https://imagevars.gulfnews.com/2020/01/14/-Rishabh-Pant_16fa4a30033_large.jpg",
-    "player": "Rishabh Pant",
-    "type": "WK-Batsman",
-    "nationality": "India",
-    "base": 150.0
-  },
-  {
-    "imgsrc": "https://images.newindianexpress.com/uploads/user/imagelibrary/2019/11/21/w900X450/Shikhar_Dhawan_PTI.jpg",
-    "player": "Shikhar Dhawan",
-    "type": "Batsman",
-    "nationality": "India",
-    "base": 150.0
-  },
-  {
-    "imgsrc": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Prithvi_shaw.webp/960px-Prithvi_shaw.webp.png",
-    "player": "Prithvi Shaw",
-    "type": "Batsman",
-    "nationality": "India",
-    "base": 150.0
-  },
-  {
-    "imgsrc": "https://www.thehindu.com/sport/cricket/hnio06/article30368564.ece/ALTERNATES/LANDSCAPE_1200/TH22IYER",
-    "player": "Shreyas Iyer",
-    "type": "Batsman",
-    "nationality": "India",
-    "base": 150.0
-  },
-  {
-    "imgsrc": "https://st1.photogallery.ind.sh/wp-content/uploads/indiacom/balwant-singh-201912-1577074782.jpg",
-    "player": "Prince Balwant Rai",
-    "type": "Batting Allrounder",
-    "nationality": "India",
-    "base": 20.0
-  },
-  {
-    "imgsrc": "https://www.crictracker.com/wp-content/uploads/2019/12/Digvijay-Deshmukh-1.jpg",
-    "player": "Digvijay Deshmukh",
-    "type": "Bowler",
-    "nationality": "India",
-    "base": 20.0
-  },
-  {
-    "imgsrc": "https://hindi.oneindia.com/img/2018/01/mohsinkhan1-1517199656.jpg",
-    "player": "Mohsin Khan",
-    "type": "Bowler",
-    "nationality": "India",
-    "base": 20.0
-  },
-  {
-    "imgsrc": "https://www.youngisthan.in/hindi/wp-content/uploads/2018/08/2-33.jpg",
-    "player": "Saurabh Tiwary",
-    "type": "Batsman",
-    "nationality": "India",
-    "base": 50.0
-  },
-  {
-    "imgsrc": "https://www.cricket.com.au/~/-/media/News/2019/03/07coults.ashx?w=1600",
-    "player": "Nathan Coulter-Nile",
-    "type": "Bowler",
-    "nationality": "Australia",
-    "base": 100.0
-  },
-  {
-    "imgsrc": "https://www.cricket.com.au/~/-/media/News/2019/12/09lynn.ashx?w=1600",
-    "player": "Chris Lynn",
-    "type": "Batsman",
-    "nationality": "Australia",
-    "base": 200.0
-  },
-  {
-    "imgsrc": "https://p.imgci.com/db/PICTURES/CMS/288700/288714.4.jpg",
-    "player": "Sherfane Rutherford",
-    "type": "Batting Allrounder",
-    "nationality": "West Indies",
-    "base": 150.0
-  },
-  {
-    "imgsrc": "https://f1.media.brightcove.com/8/3588749423001/3588749423001_4866287502001_dhawal.jpg?pubId=3588749423001&videoId=4866175215001",
-    "player": "Dhawal Kulkarni",
-    "type": "Bowler",
-    "nationality": "India",
-    "base": 150.0
-  },
-  {
-    "imgsrc": "https://caughtatpoint.com/wp-content/uploads/2018/02/Trent-Boult-bowling-action.jpg",
-    "player": "Trent Boult",
-    "type": "Bowler",
-    "nationality": "New Zealand",
-    "base": 150.0
-  },
-  {
-    "imgsrc": "https://resources.platform.iplt20.com/IPL/photo/2019/04/18/97149af2-6cde-475b-aa1e-4327d08df733/jayant.jpg",
-    "player": "Jayant Yadav",
-    "type": "Bowler",
-    "nationality": "India",
-    "base": 150.0
-  },
-  {
-    "imgsrc": "https://lh3.googleusercontent.com/proxy/YlhnLP_2LWgnNfSll_xf54qYJILoR3EWIpgbeXUVWaWlMyuvY7Hmt3N-ThWTXutfU3BCUosxKK-NxU5-VaIr5ongZ8uNzubcr-gNg2YtMrytqElejBOKkbnn",
-    "player": "Aditya Tare",
-    "type": "WK-Batsman",
-    "nationality": "India",
-    "base": 150.0
-  },
-  {
-    "imgsrc": "https://statics.sportskeeda.com/editor/2018/04/c1432-1523089797-500.jpg",
-    "player": "Anukul Roy",
-    "type": "Batting Allrounder",
-    "nationality": "India",
-    "base": 150.0
-  },
-  {
-    "imgsrc": "https://www.crictracker.com/wp-content/uploads/2018/04/Ishan-Kishan-4.jpg",
-    "player": "Ishan Kishan",
-    "type": "WK-Batsman",
-    "nationality": "India",
-    "base": 150.0
-  },
-  {
-    "imgsrc": "https://resources.platform.iplt20.com/IPL/photo/2019/04/18/5da81a04-e138-4107-b0a6-fa607802924f/chahar11.jpg",
-    "player": "Rahul Chahar",
-    "type": "Bowler",
-    "nationality": "India",
-    "base": 150.0
-  },
-  {
-    "imgsrc": "https://starsunfolded.com/wp-content/uploads/2019/02/Anmolpreet-Singh.jpg",
-    "player": "Anmolpreet Singh",
-    "type": "Batsman",
-    "nationality": "India",
-    "base": 150.0
-  },
-  {
-    "imgsrc": "https://new-img.patrika.com/upload/2018/05/06/suryakumar_yadav_2761654_835x547-m.jpg",
-    "player": "Suryakumar Yadav",
-    "type": "Batsman",
-    "nationality": "India",
-    "base": 150.0
-  },
-  {
-    "imgsrc": "https://c.ndtvimg.com/2019-01/q5dkkseo_krunal-pandya_625x300_22_January_19.jpg",
-    "player": "Krunal Pandya",
-    "type": "Batting Allrounder",
-    "nationality": "India",
-    "base": 150.0
-  },
-  {
-    "imgsrc": "https://cdn.dnaindia.com/sites/default/files/styles/full/public/2019/04/04/809282-lasith-malinga-pti.jpg",
-    "player": "Lasith Malinga",
-    "type": "Bowler",
-    "nationality": "Sri Lanka",
-    "base": 150.0
-  },
-  {
-    "imgsrc": "https://www.hindustantimes.com/rf/image_size_1200x900/HT/p2/2019/09/30/Pictures/indian-team-practice-session_1864508e-e399-11e9-a8aa-54897fdfe8ad.jpg",
-    "player": "Jasprit Bumrah",
-    "type": "Bowler",
-    "nationality": "India",
-    "base": 150.0
-  },
-  {
-    "imgsrc": "https://img.republicworld.com/republic-prod/stories/promolarge/xxhdpi/tsyuiumzyqstaohv_1584949034.jpeg?tr=w-812,h-464",
-    "player": "Mitchell McClenaghan",
-    "type": "Bowler",
-    "nationality": "New Zealand",
-    "base": 150.0
-  },
-  {
-    "imgsrc": "https://www.newframe.com/wp-content/uploads/2019/04/image-24-155.jpg",
-    "player": "Quinton de Kock",
-    "type": "WK-Batsman",
-    "nationality": "South Africa",
-    "base": 150.0
-  },
-  {
-    "imgsrc": "https://akm-img-a-in.tosshub.com/indiatoday/images/story/201912/Pollard-770x433.jpeg?980mZbh.ilRGaD8F.s0cM11_2dHY70lw",
-    "player": "Kieron Pollard",
-    "type": "Batting Allrounder",
-    "nationality": "West Indies",
-    "base": 150.0
-  },
-  {
-    "imgsrc": "https://images.jagran.com/naidunia/ndnimg/12012020/12_01_2020-hardik_pandya09.jpg",
-    "player": "Hardik Pandya",
-    "type": "Batting Allrounder",
-    "nationality": "India",
-    "base": 150.0
-  },
-  {
-    "imgsrc": "https://resources.platform.bcci.tv/bcci/photo/2019/12/18/f8838142-87b1-4db1-895d-92ecf54c4dcd/VRP4805.jpg",
-    "player": "Rohit Sharma",
-    "type": "Batsman",
-    "nationality": "India",
-    "base": 150.0
-  },
-  {
-    "imgsrc": "https://www.indiafantasy.com/wp-content/uploads/2019/03/IMG_20190309_073557-1200x1313.jpg",
-    "player": "Nikhil Naik",
-    "type": "Batsman",
-    "nationality": "India",
-    "base": 20.0
-  },
-  {
-    "imgsrc": "https://www.indiafantasy.com/wp-content/uploads/2019/03/IMG_20190309_073557-1200x1313.jpg",
-    "player": "Pravin Tambe",
-    "type": "Bowler",
-    "nationality": "India",
-    "base": 20.0
-  },
-  {
-    "imgsrc": "https://admin.thecricketer.com/weblab/sites/96c8b790-b593-bfda-0ba4-ecd3a9fdefc2/resources/images/site/banton_100801.jpg",
-    "player": "Tom Banton",
-    "type": "WK-Batsman",
-    "nationality": "England",
-    "base": 100.0
-  },
-  {
-    "imgsrc": "https://imageresizer.static9.net.au/cyxPMpBCUhm4INSkbWIdzCpZtzg=/0x0/https%3A%2F%2Fprod.static9.net.au%2Ffs%2F5c95c06b-493b-4b41-9b62-5450b5e4dd2e",
-    "player": "Chris Green",
-    "type": "Bowling Allrounder",
-    "nationality": "Australia",
-    "base": 20.0
-  },
-  {
-    "imgsrc": "https://st1.photogallery.ind.sh/wp-content/uploads/indiacom/manimaran-siddharth-201912-1577089088.jpg",
-    "player": "Manimaran Siddharth",
-    "type": "Bowler",
-    "nationality": "India",
-    "base": 20.0
-  },
-  {
-    "imgsrc": "https://starsunfolded.com/wp-content/uploads/2018/12/Varun-Chakravarthy.jpg",
-    "player": "Varun Chakravarthy",
-    "type": "Bowler",
-    "nationality": "India",
-    "base": 30.0
-  },
-  {
-    "imgsrc": "https://resources.platform.iplt20.com/IPL/photo/2017/04/22/2065ef00-4457-45d2-8094-44bfc9a0490a/ROY77263.jpg",
-    "player": "Rahul Tripathi",
-    "type": "Batsman",
-    "nationality": "India",
-    "base": 20.0
-  },
-  {
-    "imgsrc": "https://www.cricket.com.au/~/-/media/News/2019/08/6cumminscele2.ashx?w=1600",
-    "player": "Pat Cummins",
-    "type": "Bowler",
-    "nationality": "Australia",
-    "base": 200.0
-  },
-  {
-    "imgsrc": "https://img.cricketworld.com/images/f-071225/eoin-morgan.jpg",
-    "player": "Eoin Morgan",
-    "type": "Batsman",
-    "nationality": "England",
-    "base": 150.0
-  },
-  {
-    "imgsrc": "https://cdn.dnaindia.com/sites/default/files/styles/full/public/2019/05/30/830162-rinku-singh-kolkata-knight-riders-2019.jpg",
-    "player": "Rinku Singh",
-    "type": "Batsman",
-    "nationality": "India",
-    "base": 150.0
-  },
-  {
-    "imgsrc": "https://s01.sgp1.cdn.digitaloceanspaces.com/article/117182-jxvslykzxs-1554908652.jpg",
-    "player": "Siddhesh Lad",
-    "type": "Batsman",
-    "nationality": "India",
-    "base": 150.0
-  },
-  {
-    "imgsrc": "https://www.hindustantimes.com/rf/image_size_1200x900/HT/p2/2020/01/08/Pictures/vivo-ipl-2018-eliminator-kkr-v-rr_aeefdd06-31e2-11ea-866e-f0adb255fbdd.JPG",
-    "player": "Prasidh Krishna",
-    "type": "Bowler",
-    "nationality": "India",
-    "base": 150.0
-  },
-  {
-    "imgsrc": "https://img1.hscicdn.com/image/upload/f_auto/esci/i/cricket/cricinfo/1134108_1296x729.jpg",
-    "player": "Shivam Mavi",
-    "type": "Bowling Allrounder",
-    "nationality": "India",
-    "base": 150.0
-  },
-  {
-    "imgsrc": "https://i.ytimg.com/vi/zkztOMrBdAs/hqdefault.jpg",
-    "player": "Kamlesh Nagarkoti",
-    "type": "Bowler",
-    "nationality": "India",
-    "base": 150.0
-  },
-  {
-    "imgsrc": "https://www.cricket.com.au/~/-/media/News/2019/02/18Gurney1.ashx?w=1600",
-    "player": "Harry Gurney",
-    "type": "Bowler",
-    "nationality": "England",
-    "base": 150.0
-  },
-  {
-    "imgsrc": "https://iplstatic.s3.amazonaws.com/players/284/1092.png",
-    "player": "Sandeep Warrier",
-    "type": "Bowler",
-    "nationality": "India",
-    "base": 150.0
-  },
-  {
-    "imgsrc": "https://www.crictracker.com/wp-content/uploads/2018/04/Nitish-Rana-4.jpg",
-    "player": "Nitish Rana",
-    "type": "Batsman",
-    "nationality": "India",
-    "base": 150.0
-  },
-  {
-    "imgsrc": "https://statics.sportskeeda.com/editor/2018/02/1f08b-1518766580-800.jpg",
-    "player": "Lockie Ferguson",
-    "type": "Bowler",
-    "nationality": "New Zealand",
-    "base": 150.0
-  },
-  {
-    "imgsrc": "https://en.100mbsports.com/wp-content/uploads/2019/08/000_YA17E.jpg",
-    "player": "Shubman Gill",
-    "type": "Batsman",
-    "nationality": "India",
-    "base": 150.0
-  },
-  {
-    "imgsrc": "https://images.indianexpress.com/2017/09/kuldeep-yadav-7591.jpg",
-    "player": "Kuldeep Yadav",
-    "type": "Bowler",
-    "nationality": "India",
-    "base": 150.0
-  },
-  {
-    "imgsrc": "https://timesofindia.indiatimes.com/thumb/msid-76027003,width-1200,height-900,resizemode-4/.jpg",
-    "player": "Sunil Narine",
-    "type": "Bowler",
-    "nationality": "West Indies",
-    "base": 150.0
-  },
-  {
-    "imgsrc": "https://www.thestatesman.com/wp-content/uploads/2018/11/Andre-Russell.jpg",
-    "player": "Andre Russell",
-    "type": "Bowling Allrounder",
-    "nationality": "West Indies",
-    "base": 150.0
-  },
-  {
-    "imgsrc": "https://cricketaddictor.com/wp-content/uploads/2019/11/295217.jpg",
-    "player": "Dinesh Karthik",
-    "type": "WK-Batsman",
-    "nationality": "India",
-    "base": 150.0
-  },
-  {
-    "imgsrc": "https://www.sydneysixers.com.au/-/media/sydneysixerscomau/Players/Tom%20Curran/Tom-Curran0202-Web.ashx",
-    "player": "Tom Curran",
-    "type": "Bowling Allrounder",
-    "nationality": "England",
-    "base": 100.0
-  },
-  {
-    "imgsrc": "https://admin.thecricketer.com/weblab/sites/96c8b790-b593-bfda-0ba4-ecd3a9fdefc2/resources/images/site/tyeheadshot-min.jpg",
-    "player": "Andrew Tye",
-    "type": "Bowler",
-    "nationality": "Australia",
-    "base": 100.0
-  },
-  {
-    "imgsrc": "https://starsunfolded.com/wp-content/uploads/2018/02/Aniruddha-Joshi-1280x720.jpg",
-    "player": "Aniruddha Joshi",
-    "type": "Bowling Allrounder",
-    "nationality": "India",
-    "base": 20.0
-  },
-  {
-    "imgsrc": "https://img1.hscicdn.com/image/upload/f_auto/esci/i/cricket/cricinfo/1163821_1296x729.jpg",
-    "player": "Oshane Thomas",
-    "type": "Bowler",
-    "nationality": "West Indies",
-    "base": 50.0
-  },
-  {
-    "imgsrc": "https://admin.thecricketer.com/weblab/Sites/96c8b790-b593-bfda-0ba4-ecd3a9fdefc2/resources/images/site/millerheadshot-min.jpg",
-    "player": "David Miller",
-    "type": "Batsman",
-    "nationality": "South Africa",
-    "base": 75.0
-  },
-  {
-    "imgsrc": "https://www.indiafantasy.com/wp-content/uploads/Untitled-design-2-1.jpg",
-    "player": "Kartik Tyagi",
-    "type": "Bowler",
-    "nationality": "India",
-    "base": 20.0
-  },
-  {
-    "imgsrc": "https://www.crictracker.com/wp-content/uploads/2020/01/Akash-Singh.jpg",
-    "player": "Akash Singh",
-    "type": "Bowler",
-    "nationality": "India",
-    "base": 20.0
-  },
-  {
-    "imgsrc": "https://s3.ap-southeast-1.amazonaws.com/images.deccanchronicle.com/dc-Cover-jll2jl6m6d25fiq9jal1l8qf53-20180803114702.Medi.jpeg",
-    "player": "Anuj Rawat",
-    "type": "WK-Batsman",
-    "nationality": "India",
-    "base": 20.0
-  },
-  {
-    "imgsrc": "https://timesofindia.indiatimes.com/thumb/msid-74038868,width-1200,height-900,resizemode-4/.jpg",
-    "player": "Yashasvi Jaiswal",
-    "type": "Batsman",
-    "nationality": "India",
-    "base": 20.0
-  },
-  {
-    "imgsrc": "https://cricketaddictor.com/wp-content/uploads/2018/01/Unadkat-1.jpg",
-    "player": "Jaydev Unadkat",
-    "type": "Bowler",
-    "nationality": "India",
-    "base": 100.0
-  },
-  {
-    "imgsrc": "https://img.theweek.in/content/dam/week/news/sports/images/2020/4/7/robin-uthappa-bcci.jpg",
-    "player": "Robin Uthappa",
-    "type": "WK-Batsman",
-    "nationality": "India",
-    "base": 150.0
-  },
-  {
-    "imgsrc": "https://i.ytimg.com/vi/8THGPIvpf8M/maxresdefault.jpg",
-    "player": "Rahul Tewatia",
-    "type": "Bowler",
-    "nationality": "India",
-    "base": 150.0
-  },
-  {
-    "imgsrc": "https://resources.platform.iplt20.com/IPL/photo/2018/04/12/e09128db-5a6b-4370-b982-b25646c57724/Mayank.jpg",
-    "player": "Mayank Markande",
-    "type": "Bowler",
-    "nationality": "India",
-    "base": 150.0
-  },
-  {
-    "imgsrc": "https://resources.platform.iplt20.com/IPL/photo/2018/04/26/4a95930a-de51-45f7-bec6-8ffcff0e8cf3/ankit.jpg",
-    "player": "Ankit Rajpoot",
-    "type": "Bowler",
-    "nationality": "India",
-    "base": 150.0
-  },
-  {
-    "imgsrc": "https://images.indianexpress.com/2019/04/varun-aaron-m.jpg",
-    "player": "Varun Aaron",
-    "type": "Bowler",
-    "nationality": "India",
-    "base": 150.0
-  },
-  {
-    "imgsrc": "https://cricketaddictor.com/wp-content/uploads/2019/04/IMG_8212.jpg",
-    "player": "Shreyas Gopal",
-    "type": "Bowling Allrounder",
-    "nationality": "India",
-    "base": 150.0
-  },
-  {
-    "imgsrc": "https://www.astrosage.com/celebrity-horoscope/img/Shashank-Singh-horoscope.jpg",
-    "player": "Shashank Singh",
-    "type": "Batsman",
-    "nationality": "India",
-    "base": 150.0
-  },
-  {
-    "imgsrc": "https://sportstar.thehindu.com/cricket/article29787623.ece/ALTERNATES/LANDSCAPE_1200/SANJUSAMSON",
-    "player": "Sanju Samson",
-    "type": "WK-Batsman",
-    "nationality": "India",
-    "base": 150.0
-  },
-  {
-    "imgsrc": "https://nenow.in/wp-content/uploads/2019/12/Story-10-6.jpg",
-    "player": "Riyan Parag",
-    "type": "Batsman",
-    "nationality": "India",
-    "base": 150.0
-  },
-  {
-    "imgsrc": "https://starsunfolded.com/wp-content/uploads/2017/04/Manan-Vohra-1280x720.jpg",
-    "player": "Manan Vohra",
-    "type": "Batsman",
-    "nationality": "India",
-    "base": 150.0
-  },
-  {
-    "imgsrc": "https://iplstatic.s3.amazonaws.com/players/284/2970.png",
-    "player": "Mahipal Lomror",
-    "type": "Batting Allrounder",
-    "nationality": "India",
-    "base": 150.0
-  },
-  {
-    "imgsrc": "https://akm-img-a-in.tosshub.com/indiatoday/images/story/202004/josbuttler-770x433.jpeg?x.0DvF.4RUm0ycytqePNKRFrNkcQxo29",
-    "player": "Jos Buttler",
-    "type": "WK-Batsman",
-    "nationality": "England",
-    "base": 150.0
-  },
-  {
-    "imgsrc": "https://www.cricbuzz.com/stats/img/faceImages/11540.jpghttps://www.essentiallysports.com/wp-content/uploads/Jofra-Archer-2.jpg",
-    "player": "Jofra Archer",
-    "type": "Bowling Allrounder",
-    "nationality": "England",
-    "base": 150.0
-  },
-  {
-    "imgsrc": "https://admin.thecricketer.com/weblab/sites/96c8b790-b593-bfda-0ba4-ecd3a9fdefc2/resources/images/site/stokes190801.jpg",
-    "player": "Ben Stokes",
-    "type": "Batting Allrounder",
-    "nationality": "England",
-    "base": 150.0
-  },
-  {
-    "imgsrc": "https://www.hindustantimes.com/rf/image_size_1200x900/HT/p2/2019/08/05/Pictures/britain-cricket-england-australia-ashes_58065536-b764-11e9-98cb-e738ad509720.jpg",
-    "player": "Steven Smith",
-    "type": "Batsman",
-    "nationality": "Australia",
-    "base": 150.0
-  },
-  {
-    "imgsrc": "https://timesofindia.indiatimes.com/thumb/msid-57994923,width-1200,height-900,resizemode-4/.jpg",
-    "player": "Sanjay Yadav",
-    "type": "Batsman",
-    "nationality": "India",
-    "base": 20.0
-  },
-  {
-    "imgsrc": "https://www.crictracker.com/wp-content/uploads/2019/12/Abdul-Samad.jpg",
-    "player": "Abdul Samad",
-    "type": "Batsman",
-    "nationality": "India",
-    "base": 20.0
-  },
-  {
-    "imgsrc": "https://sportzwiki.com/wp-content/uploads/2019/12/Fabian-Allen.jpg",
-    "player": "Fabian Allen",
-    "type": "Batting Allrounder",
-    "nationality": "West Indies",
-    "base": 50.0
-  },
-  {
-    "imgsrc": "https://cdn.telanganatoday.com/wp-content/uploads/2019/11/Sandeep-on-a-roll-in-T20.jpg",
-    "player": "Bavanaka Sandeep",
-    "type": "Batting Allrounder",
-    "nationality": "India",
-    "base": 20.0
-  },
-  {
-    "imgsrc": "https://s3.ap-southeast-1.amazonaws.com/images.deccanchronicle.com/dc-Cover-aoqblpq4pjrfqhc58j6r445he7-20181211182938.Medi.jpeg",
-    "player": "Mitchell Marsh",
-    "type": "Batting Allrounder",
-    "nationality": "Australia",
-    "base": 200.0
-  },
-  {
-    "imgsrc": "https://images.jagran.com/naidunia/ndnimg/03122019/03_12_2019-priyam_garg.jpg",
-    "player": "Priyam Garg",
-    "type": "Batsman",
-    "nationality": "India",
-    "base": 20.0
-  },
-  {
-    "imgsrc": "https://new-img.patrika.com/upload/2019/12/20/virat_singh_5532307_835x547-m.jpeg",
-    "player": "Virat Singh",
-    "type": "Batting Allrounder",
-    "nationality": "India",
-    "base": 20.0
-  },
-  {
-    "imgsrc": "https://cdn.dnaindia.com/sites/default/files/styles/full/public/2019/07/21/850884-saha-wriddhiman-072219.jpg",
-    "player": "Wriddhiman Saha",
-    "type": "WK-Batsman",
-    "nationality": "India",
-    "base": 150.0
-  },
-  {
-    "imgsrc": "https://static.toiimg.com/thumb/msid-69873078,width-1070,height-580,imgsize-1157733,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg",
-    "player": "Vijay Shankar",
-    "type": "Batting Allrounder",
-    "nationality": "India",
-    "base": 150.0
-  },
-  {
-    "imgsrc": "https://s3.ap-southeast-1.amazonaws.com/images.deccanchronicle.com/dc-Cover-bc2rd14asejoeimk5bl8b7bi66-20170221011615.Medi.jpeg",
-    "player": "T Natarajan",
-    "type": "Bowler",
-    "nationality": "India",
-    "base": 150.0
-  },
-  {
-    "imgsrc": "https://timesofindia.indiatimes.com/thumb/msid-66614071,width-1200,height-900,resizemode-4/.jpg",
-    "player": "K Khaleel Ahmed",
-    "type": "Bowler",
-    "nationality": "India",
-    "base": 150.0
-  },
-  {
-    "imgsrc": "https://s01.sgp1.digitaloceanspaces.com/large/838210-58624-dlvqhfycfg-1495280425.jpg",
-    "player": "Siddarth Kaul",
-    "type": "Bowler",
-    "nationality": "India",
-    "base": 150.0
-  },
-  {
-    "imgsrc": "https://starsunfolded.com/wp-content/uploads/2018/03/Shreevats-Goswami.jpg",
-    "player": "Shreevats Goswami",
-    "type": "WK-Batsman",
-    "nationality": "India",
-    "base": 150.0
-  },
-  {
-    "imgsrc": "https://starsunfolded.com/wp-content/uploads/2018/03/Shahbaz-Nadeem-1280x720.jpg",
-    "player": "Shahbaz Nadeem",
-    "type": "Bowler",
-    "nationality": "India",
-    "base": 150.0
-  },
-  {
-    "imgsrc": "https://resources.platform.iplt20.com/IPL/photo/2017/04/10/020922f2-5fa4-45d6-a595-ee6c0ce46893/Sandeep-Sharma.jpg",
-    "player": "Sandeep Sharma",
-    "type": "Bowler",
-    "nationality": "India",
-    "base": 150.0
-  },
-  {
-    "imgsrc": "https://cricketaddictor.com/wp-content/uploads/2019/04/Rashid-Khan-e1556606651891.jpg",
-    "player": "Rashid Khan",
-    "type": "Bowler",
-    "nationality": "Afghanistan",
-    "base": 150.0
-  },
-  {
-    "imgsrc": "https://www.hindustantimes.com/rf/image_size_1200x900/HT/p2/2019/03/31/Pictures/mohammed-nabi_4b2e9bc8-53c5-11e9-b593-df9071890b8d.jpg",
-    "player": "Mohammad Nabi",
-    "type": "Bowling Allrounder",
-    "nationality": "Afghanistan",
-    "base": 150.0
-  },
-  {
-    "imgsrc": "https://s3.ap-southeast-1.amazonaws.com/images.asianage.com/images/aa-Cover-d3chb4rgem199cim20o3ulch64-20180411023841.Medi.jpeg",
-    "player": "Manish Pandey",
-    "type": "Batsman",
-    "nationality": "India",
-    "base": 150.0
-  },
-  {
-    "imgsrc": "https://admin.thecricketer.com/weblab/sites/96c8b790-b593-bfda-0ba4-ecd3a9fdefc2/resources/images/site/williamson130702-min.jpg",
-    "player": "Kane Williamson",
-    "type": "Batsman",
-    "nationality": "New Zealand",
-    "base": 150.0
-  },
-  {
-    "imgsrc": "https://image-cdn.essentiallysports.com/wp-content/uploads/20200327175208/956DD095-5537-42D3-9981-143EC1847397.png",
-    "player": "Jonny Bairstow",
-    "type": "WK-Batsman",
-    "nationality": "England",
-    "base": 150.0
-  },
-  {
-    "imgsrc": "https://cricketaddictor.com/wp-content/uploads/2019/04/GAZI_1576.jpg",
-    "player": "David Warner",
-    "type": "Batsman",
-    "nationality": "Australia",
-    "base": 150.0
-  },
-  {
-    "imgsrc": "https://s01.sgp1.digitaloceanspaces.com/large/876789-88022-hwjowkpxms-1524581069.JPG",
-    "player": "Billy Stanlake",
-    "type": "Bowler",
-    "nationality": "Australia",
-    "base": 150.0
-  },
-  {
-    "imgsrc": "https://admin.thecricketer.com/weblab/sites/96c8b790-b593-bfda-0ba4-ecd3a9fdefc2/resources/images/site/kumar110301.jpg",
-    "player": "Bhuvneshwar Kumar",
-    "type": "Bowler",
-    "nationality": "India",
-    "base": 150.0
-  },
-  {
-    "imgsrc": "https://www.thenewsminute.com/sites/default/files/styles/news_detail/public/Basil-Thampi-Facebook-2.jpg?itok=9NJDg7Zg",
-    "player": "Basil Thampi",
-    "type": "Bowler",
-    "nationality": "India",
-    "base": 150.0
-  },
-  {
-    "imgsrc": "https://www.hindustantimes.com/rf/image_size_960x540/HT/p2/2017/05/23/Pictures/patiala-hindustan-cricketer-november-bhushan-abhishek-sharma_1be7e5cc-3fbd-11e7-a718-97a052f84fc6.jpg",
-    "player": "Abhishek Sharma",
-    "type": "Batting Allrounder",
-    "nationality": "India",
-    "base": 150.0
-  }
+    {
+        "imgsrc": "https://etvbharatimages.akamaized.net/etvbharat/prod-images/1_1812newsroom_1576678151_489.webp",
+        "player": "Ravisrinivasan Sai Kishore",
+        "type": "Bowler",
+        "nationality": "India",
+        "base": 20.0
+    },
+    {
+        "imgsrc": "https://www.cricket.com.au/-/media/Players/Men/International/Australia/ODI/Josh-Hazlewood-ODI1819.ashx",
+        "player": "Josh Hazlewood",
+        "type": "Bowler",
+        "nationality": "Australia",
+        "base": 200.0
+    },
+    {
+        "imgsrc": "https://st3.cricketcountry.com/wp-content/uploads/cricket/20140529095533.jpeg",
+        "player": "Piyush Chawla",
+        "type": "Bowler",
+        "nationality": "India",
+        "base": 100.0
+    },
+    {
+        "imgsrc": "https://www.kiaoval.com/wp-content/uploads/2016/03/squad-sam-curran-min.jpg",
+        "player": "Sam Curran",
+        "type": "Bowling Allrounder",
+        "nationality": "England",
+        "base": 100.0
+    },
+    {
+        "imgsrc": "https://static.toiimg.com/photo/msid-74174942/74174942.jpg?resizemode=4&width=400",
+        "player": "Shardul Thakur",
+        "type": "Bowler",
+        "nationality": "India",
+        "base": 150.0
+    },
+    {
+        "imgsrc": "https://powersportz.com/wp-content/uploads/2020/02/KM-Asif-bio.jpg",
+        "player": "KM Asif",
+        "type": "Bowler",
+        "nationality": "India",
+        "base": 150.0
+    },
+    {
+        "imgsrc": "https://images.indianexpress.com/2019/12/deepak-chahar-1.jpg",
+        "player": "Deepak Chahar",
+        "type": "Bowler",
+        "nationality": "India",
+        "base": 150.0
+    },
+    {
+        "imgsrc": "https://statics.sportskeeda.com/editor/2018/03/12e28-1521300186-800.jpg",
+        "player": "Imran Tahir",
+        "type": "Bowler",
+        "nationality": "South Africa",
+        "base": 150.0
+    },
+    {
+        "imgsrc": "https://new-img.patrika.com/upload/mediafiles/2015/07/06/karn-1436170958_835x547.jpg",
+        "player": "Karn Sharma",
+        "type": "Bowler",
+        "nationality": "India",
+        "base": 150.0
+    },
+    {
+        "imgsrc": "https://starsunfolded.com/wp-content/uploads/2015/09/Harbhajan-Singh3-1280x720.jpg",
+        "player": "Harbhajan Singh",
+        "type": "Bowler",
+        "nationality": "India",
+        "base": 150.0
+    },
+    {
+        "imgsrc": "https://s01.sgp1.cdn.digitaloceanspaces.com/article/124803-bxiatiiqnn-1564589492.jpeg",
+        "player": "N Jagadeesan",
+        "type": "WK-Batsman",
+        "nationality": "India",
+        "base": 150.0
+    },
+    {
+        "imgsrc": "https://iplstatic.s3.amazonaws.com/players/284/1560.png",
+        "player": "Monu Kumar",
+        "type": "Bowling Allrounder",
+        "nationality": "India",
+        "base": 150.0
+    },
+    {
+        "imgsrc": "https://admin.thecricketer.com/weblab/Sites/96c8b790-b593-bfda-0ba4-ecd3a9fdefc2/resources/images/site/mitchsantnerheadshot-min.jpg",
+        "player": "Mitchell Santner",
+        "type": "Bowling Allrounder",
+        "nationality": "New Zealand",
+        "base": 150.0
+    },
+    {
+        "imgsrc": "https://admin.thecricketer.com/weblab/Sites/96c8b790-b593-bfda-0ba4-ecd3a9fdefc2/resources/images/site/jadejaheadshot-min.jpg",
+        "player": "Ravindra Jadeja",
+        "type": "Bowling Allrounder",
+        "nationality": "India",
+        "base": 150.0
+    },
+    {
+        "imgsrc": "https://icc-corp-2013-live.s3.amazonaws.com/players/284/3746.png",
+        "player": "Lungi Ngidi",
+        "type": "Bowler",
+        "nationality": "South Africa",
+        "base": 150.0
+    },
+    {
+        "imgsrc": "https://www.cricket.com.au/-/media/Players/Men/International/India/ODIWC19/Kedar-Jadhav-CWC19.ashx",
+        "player": "Kedar Jadhav",
+        "type": "Batting Allrounder",
+        "nationality": "India",
+        "base": 150.0
+    },
+    {
+        "imgsrc": "https://pbs.twimg.com/profile_images/823430776238866432/kPSaK3lQ.jpg",
+        "player": "Dwayne Bravo",
+        "type": "Batting Allrounder",
+        "nationality": "West Indies",
+        "base": 150.0
+    },
+    {
+        "imgsrc": "https://iplstatic.s3.amazonaws.com/players/284/5443.png",
+        "player": "Ruturaj Gaikwad",
+        "type": "Batsman",
+        "nationality": "India",
+        "base": 150.0
+    },
+    {
+        "imgsrc": "https://th.thgim.com/sport/cricket/article19194972.ece/alternates/FREE_435/TH02VIJAY1",
+        "player": "Murali Vijay",
+        "type": "Batsman",
+        "nationality": "India",
+        "base": 150.0
+    },
+    {
+        "imgsrc": "https://icc-corp-2013-live.s3.amazonaws.com/players/champions-trophy-2017/284/24.png",
+        "player": "Faf du Plessis",
+        "type": "Batsman",
+        "nationality": "South Africa",
+        "base": 150.0
+    },
+    {
+        "imgsrc": "https://img.etimg.com/thumb/width-640,height-480,imgsize-67258,resizemode-1,msid-48239934/cricketers-have-no-role-in-spot-fixing-suresh-raina.jpghttps://img.etimg.com/thumb/width-640,height-480,imgsize-67258,resizemode-1,msid-48239934/cricketers-have-no-role-in-spot-fixing-suresh-raina.jpg",
+        "player": "Suresh Raina",
+        "type": "Batsman",
+        "nationality": "India",
+        "base": 150.0
+    },
+    {
+        "imgsrc": "https://cricketaddictor.com/wp-content/uploads/2019/09/715005-ms-dhoni-1024x576.jpg",
+        "player": "MS Dhoni",
+        "type": "WK-Batsman",
+        "nationality": "India",
+        "base": 150.0
+    },
+    {
+        "imgsrc": "https://assets.thehansindia.com/h-upload/feeds/2019/07/02/191855-ambati-rayudu.jpg ",
+        "player": "Ambati Rayudu",
+        "type": "Batsman",
+        "nationality": "India",
+        "base": 150.0
+    },
+    {
+        "imgsrc": "https://www.sydneythunder.com.au/-/media/sydneythundercomau/Images/180927_THUNDER_17_Shane_929.ashx?mw=1200",
+        "player": "Shane Watson",
+        "type": "Batting Allrounder",
+        "nationality": "Australia",
+        "base": 150.0
+    },
+    {
+        "imgsrc": "https://circleofcricket.com/post_image/post_image_579326b.png",
+        "player": "Isuru Udana",
+        "type": "Bowling Allrounder",
+        "nationality": "Sri Lanka",
+        "base": 50.0
+    },
+    {
+        "imgsrc": "https://img1.hscicdn.com/image/upload/f_auto/esci/i/cricket/cricinfo/1213885_1296x729.jpg",
+        "player": "Shahbaz Ahmed",
+        "type": "WK-Batsman",
+        "nationality": "India",
+        "base": 20.0
+    },
+    {
+        "imgsrc": "https://thesportsrush.com/wp-content/uploads/2020/03/Dale-Steyn-ODI.jpg",
+        "player": "Dale Steyn",
+        "type": "Bowler",
+        "nationality": "South Africa",
+        "base": 200.0
+    },
+    {
+        "imgsrc": "https://insidesport.co/moneyball/img/singleplayer/PavanDeshpande1.jpg",
+        "player": "Pavan Deshpande",
+        "type": "Batting Allrounder",
+        "nationality": "India",
+        "base": 20.0
+    },
+    {
+        "imgsrc": "https://sportstar.thehindu.com/cricket/article31056695.ece/ALTERNATES/LANDSCAPE_1200/Kane-Richardson",
+        "player": "Kane Richardson",
+        "type": "Bowler",
+        "nationality": "Australia",
+        "base": 150.0
+    },
+    {
+        "imgsrc": "https://www.sydneysixers.com.au/-/media/sydneysixerscomau/Josh-Philippe-WEB.ashx",
+        "player": "Josh Philippe",
+        "type": "WK-Batsman",
+        "nationality": "Australia",
+        "base": 20.0
+    },
+    {
+        "imgsrc": "https://www.cricketcountry.com/wp-content/uploads/2015/09/Chris-Morris.jpg",
+        "player": "Chris Morris",
+        "type": "Bowling Allrounder",
+        "nationality": "South Africa",
+        "base": 150.0
+    },
+    {
+        "imgsrc": "https://img.cricketworld.com/images/f-066132/australia's-aaron-finch-after-the-coin-toss-before-the-match.jpg",
+        "player": "Aaron Finch",
+        "type": "Batsman",
+        "nationality": "Australia",
+        "base": 100.0
+    },
+    {
+        "imgsrc": "https://cricketaddictor.com/wp-content/uploads/2020/01/298924.jpg",
+        "player": "Navdeep Saini",
+        "type": "Bowler",
+        "nationality": "India",
+        "base": 150.0
+    },
+    {
+        "imgsrc": "https://www.telegraph.co.uk/content/dam/cricket/2018/06/30/TELEMMGLPICT000168007413_trans%2B%2B56SURFa-j0RBa9h9sFlLKbPgx3-FtLkWb4JLoQFZ_DE.jpeg",
+        "player": "Washington Sundar",
+        "type": "Batting Allrounder",
+        "nationality": "India",
+        "base": 150.0
+    },
+    {
+        "imgsrc": "https://cdn.dnaindia.com/sites/default/files/styles/full/public/2019/12/05/884044-shivam-dube.jpg",
+        "player": "Shivam Dube",
+        "type": "Bowling Allrounder",
+        "nationality": "India",
+        "base": 150.0
+    },
+    {
+        "imgsrc": "https://img.manoramaonline.com/content/dam/mm/en/sports/cricket/images/2019/10/28/devdutt-padikkal.jpg",
+        "player": "Devdutt Padikkal",
+        "type": "Batsman",
+        "nationality": "India",
+        "base": 150.0
+    },
+    {
+        "imgsrc": "https://superstarsbio.com/wp-content/uploads/2020/03/Gurkeerat-Singh.png",
+        "player": "Gurkeerat Singh Mann",
+        "type": "Batsman",
+        "nationality": "India",
+        "base": 150.0
+    },
+    {
+        "imgsrc": "https://akm-img-a-in.tosshub.com/indiatoday/images/story/201910/AP19294297874555-770x433.jpeg?vdBUmuSPRo7AOR7RNOjV.Az45D8Q1fcA",
+        "player": "Umesh Yadav",
+        "type": "Bowler",
+        "nationality": "India",
+        "base": 150.0
+    },
+    {
+        "imgsrc": "https://resources.platform.iplt20.com/IPL/photo/2017/05/14/121b9b25-ba98-483c-8ebd-66b5327a8958/Negi.jpg",
+        "player": "Pawan Negi",
+        "type": "Bowling Allrounder",
+        "nationality": "India",
+        "base": 150.0
+    },
+    {
+        "imgsrc": "https://images.indianexpress.com/2018/09/siraj-759.jpg",
+        "player": "Mohammed Siraj",
+        "type": "Bowler",
+        "nationality": "India",
+        "base": 150.0
+    },
+    {
+        "imgsrc": "https://www.hindustantimes.com/rf/image_size_1200x900/HT/p2/2019/11/18/Pictures/ipl-t20-2019-rcb-vs-kxip_3a293600-09ee-11ea-a248-2cd23afa2126.jpg",
+        "player": "Parthiv Patel",
+        "type": "WK-Batsman",
+        "nationality": "India",
+        "base": 150.0
+    },
+    {
+        "imgsrc": "https://images.indianexpress.com/2019/12/ab-de-villiers-1200.jpg",
+        "player": "AB de Villiers",
+        "type": "WK-Batsman",
+        "nationality": "South Africa",
+        "base": 150.0
+    },
+    {
+        "imgsrc": "https://images.newindianexpress.com/uploads/user/imagelibrary/2019/11/2/w900X450/chahal_-_ap.jpg",
+        "player": "Yuzvendra Chahal",
+        "type": "Bowler",
+        "nationality": "India",
+        "base": 150.0
+    },
+    {
+        "imgsrc": "https://www.wisden.com/wp-content/uploads/2019/07/GettyImages-1163551824-e1564415140452-980x530.jpg",
+        "player": "Moeen Ali",
+        "type": "Batting Allrounder",
+        "nationality": "England",
+        "base": 150.0
+    },
+    {
+        "imgsrc": "https://www.thestatesman.com/wp-content/uploads/2019/12/Virat-4.jpg",
+        "player": "Virat Kohli",
+        "type": "Batsman",
+        "nationality": "India",
+        "base": 150.0
+    },
+    {
+        "imgsrc": "https://www.crictracker.com/wp-content/uploads/2020/02/Lalit-Yadav.jpg",
+        "player": "Lalit Yadav",
+        "type": "Batting Allrounder",
+        "nationality": "India",
+        "base": 20.0
+    },
+    {
+        "imgsrc": "https://imageresizer.static9.net.au/ScOC4L4lOA5B13-y0CTvbDHxYfg=/0x0/https%3A%2F%2Fprod.static9.net.au%2Ffs%2F058bbb5c-7ab5-4777-9439-04331893eed0",
+        "player": "Marcus Stoinis",
+        "type": "Batting Allrounder",
+        "nationality": "Australia",
+        "base": 100.0
+    },
+    {
+        "imgsrc": "https://static.toiimg.com/thumb/imgsize-196167,msid-55331178,width-400,resizemode-4/55331178.jpg",
+        "player": "Tushar Deshpande",
+        "type": "Bowler",
+        "nationality": "India",
+        "base": 20.0
+    },
+    {
+        "imgsrc": "https://smedia2.intoday.in/indiatoday/images/stories/2013aug/sharma_660_080213051907.jpg",
+        "player": "Mohit Sharma",
+        "type": "Bowler",
+        "nationality": "India",
+        "base": 50.0
+    },
+    {
+        "imgsrc": "https://images.indianexpress.com/2018/10/hetmyer.jpg",
+        "player": "Shimron Hetmyer",
+        "type": "Batsman",
+        "nationality": "West Indies",
+        "base": 50.0
+    },
+    {
+        "imgsrc": "https://c.ndtvimg.com/2019-10/h0qll33g_alex-carey-afp_625x300_29_October_19.jpg",
+        "player": "Alex Carey",
+        "type": "WK-Batsman",
+        "nationality": "Australia",
+        "base": 50.0
+    },
+    {
+        "imgsrc": "https://static.toiimg.com/photo/msid-70181982/70181982.jpg?resizemode=4&width=400",
+        "player": "Chris Woakes",
+        "type": "Bowling Allrounder",
+        "nationality": "England",
+        "base": 150.0
+    },
+    {
+        "imgsrc": "https://www.telegraph.co.uk/content/dam/cricket/2018/01/15/TELEMMGLPICT000151263260_trans%2B%2BUCbohUkrzNv-AqVb-6cvh7nfh3zlJxH1EiHuW99LE_U.jpeg",
+        "player": "Jason Roy",
+        "type": "Batsman",
+        "nationality": "England",
+        "base": 150.0
+    },
+    {
+        "imgsrc": "https://images.newindianexpress.com/uploads/user/imagelibrary/2019/4/25/w900X450/Ajinkya_Rahane-PTI.jpg",
+        "player": "Ajinkya Rahane",
+        "type": "Batsman",
+        "nationality": "India",
+        "base": 150.0
+    },
+    {
+        "imgsrc": "https://crickettimes.com/wp-content/uploads/2020/02/Ravichandran-Ashwin-1.jpg",
+        "player": "Ravichandran Ashwin",
+        "type": "Bowling Allrounder",
+        "nationality": "India",
+        "base": 150.0
+    },
+    {
+        "imgsrc": "https://statics.sportskeeda.com/wp-content/uploads/2015/05/harshal-patel-1431337603.jpg",
+        "player": "Harshal Patel",
+        "type": "Bowler",
+        "nationality": "India",
+        "base": 150.0
+    },
+    {
+        "imgsrc": "https://www.hindustantimes.com/rf/image_size_960x540/HT/p2/2018/04/18/Pictures/ipl-2018-kxip-v-s-rcb_331b85b6-432f-11e8-9c90-d40a08109dff.jpg",
+        "player": "Axar Patel",
+        "type": "Bowling Allrounder",
+        "nationality": "India",
+        "base": 150.0
+    },
+    {
+        "imgsrc": "https://www.crictracker.com/wp-content/uploads/2019/04/Keemo-Paul-wicket.jpg",
+        "player": "Keemo Paul",
+        "type": "Bowling Allrounder",
+        "nationality": "West Indies",
+        "base": 150.0
+    },
+    {
+        "imgsrc": "https://cdn.dnaindia.com/sites/default/files/styles/full/public/2018/02/14/651416-kagiso-rabada-reuters.jpg",
+        "player": "Kagiso Rabada",
+        "type": "Bowler",
+        "nationality": "South Africa",
+        "base": 150.0
+    },
+    {
+        "imgsrc": "https://s01.sgp1.cdn.digitaloceanspaces.com/article/117772-yjgaqaowsx-1555570303.jpg",
+        "player": "Sandeep Lamichhane",
+        "type": "Bowler",
+        "nationality": "Nepal",
+        "base": 150.0
+    },
+    {
+        "imgsrc": "https://statics.sportskeeda.com/wp-content/uploads/2017/05/18492795_10209115408542972_245335147_n-1494854889-800.jpg",
+        "player": "Avesh Khan",
+        "type": "Bowler",
+        "nationality": "India",
+        "base": 150.0
+    },
+    {
+        "imgsrc": "https://images.indianexpress.com/2020/05/Amit-Mishra-759.jpeg",
+        "player": "Amit Mishra",
+        "type": "Bowler",
+        "nationality": "India",
+        "base": 150.0
+    },
+    {
+        "imgsrc": "https://resources.pulse.icc-cricket.com/ICC/photo/2018/08/04/5d3cae40-6744-47f2-8407-a2fe752d1389/GettyImages-1010184382.jpg",
+        "player": "Ishant Sharma",
+        "type": "Bowler",
+        "nationality": "India",
+        "base": 150.0
+    },
+    {
+        "imgsrc": "https://imagevars.gulfnews.com/2020/01/14/-Rishabh-Pant_16fa4a30033_large.jpg",
+        "player": "Rishabh Pant",
+        "type": "WK-Batsman",
+        "nationality": "India",
+        "base": 150.0
+    },
+    {
+        "imgsrc": "https://images.newindianexpress.com/uploads/user/imagelibrary/2019/11/21/w900X450/Shikhar_Dhawan_PTI.jpg",
+        "player": "Shikhar Dhawan",
+        "type": "Batsman",
+        "nationality": "India",
+        "base": 150.0
+    },
+    {
+        "imgsrc": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Prithvi_shaw.webp/960px-Prithvi_shaw.webp.png",
+        "player": "Prithvi Shaw",
+        "type": "Batsman",
+        "nationality": "India",
+        "base": 150.0
+    },
+    {
+        "imgsrc": "https://www.thehindu.com/sport/cricket/hnio06/article30368564.ece/ALTERNATES/LANDSCAPE_1200/TH22IYER",
+        "player": "Shreyas Iyer",
+        "type": "Batsman",
+        "nationality": "India",
+        "base": 150.0
+    },
+    {
+        "imgsrc": "https://st1.photogallery.ind.sh/wp-content/uploads/indiacom/balwant-singh-201912-1577074782.jpg",
+        "player": "Prince Balwant Rai",
+        "type": "Batting Allrounder",
+        "nationality": "India",
+        "base": 20.0
+    },
+    {
+        "imgsrc": "https://www.crictracker.com/wp-content/uploads/2019/12/Digvijay-Deshmukh-1.jpg",
+        "player": "Digvijay Deshmukh",
+        "type": "Bowler",
+        "nationality": "India",
+        "base": 20.0
+    },
+    {
+        "imgsrc": "https://hindi.oneindia.com/img/2018/01/mohsinkhan1-1517199656.jpg",
+        "player": "Mohsin Khan",
+        "type": "Bowler",
+        "nationality": "India",
+        "base": 20.0
+    },
+    {
+        "imgsrc": "https://www.youngisthan.in/hindi/wp-content/uploads/2018/08/2-33.jpg",
+        "player": "Saurabh Tiwary",
+        "type": "Batsman",
+        "nationality": "India",
+        "base": 50.0
+    },
+    {
+        "imgsrc": "https://www.cricket.com.au/~/-/media/News/2019/03/07coults.ashx?w=1600",
+        "player": "Nathan Coulter-Nile",
+        "type": "Bowler",
+        "nationality": "Australia",
+        "base": 100.0
+    },
+    {
+        "imgsrc": "https://www.cricket.com.au/~/-/media/News/2019/12/09lynn.ashx?w=1600",
+        "player": "Chris Lynn",
+        "type": "Batsman",
+        "nationality": "Australia",
+        "base": 200.0
+    },
+    {
+        "imgsrc": "https://p.imgci.com/db/PICTURES/CMS/288700/288714.4.jpg",
+        "player": "Sherfane Rutherford",
+        "type": "Batting Allrounder",
+        "nationality": "West Indies",
+        "base": 150.0
+    },
+    {
+        "imgsrc": "https://f1.media.brightcove.com/8/3588749423001/3588749423001_4866287502001_dhawal.jpg?pubId=3588749423001&videoId=4866175215001",
+        "player": "Dhawal Kulkarni",
+        "type": "Bowler",
+        "nationality": "India",
+        "base": 150.0
+    },
+    {
+        "imgsrc": "https://caughtatpoint.com/wp-content/uploads/2018/02/Trent-Boult-bowling-action.jpg",
+        "player": "Trent Boult",
+        "type": "Bowler",
+        "nationality": "New Zealand",
+        "base": 150.0
+    },
+    {
+        "imgsrc": "https://resources.platform.iplt20.com/IPL/photo/2019/04/18/97149af2-6cde-475b-aa1e-4327d08df733/jayant.jpg",
+        "player": "Jayant Yadav",
+        "type": "Bowler",
+        "nationality": "India",
+        "base": 150.0
+    },
+    {
+        "imgsrc": "https://lh3.googleusercontent.com/proxy/YlhnLP_2LWgnNfSll_xf54qYJILoR3EWIpgbeXUVWaWlMyuvY7Hmt3N-ThWTXutfU3BCUosxKK-NxU5-VaIr5ongZ8uNzubcr-gNg2YtMrytqElejBOKkbnn",
+        "player": "Aditya Tare",
+        "type": "WK-Batsman",
+        "nationality": "India",
+        "base": 150.0
+    },
+    {
+        "imgsrc": "https://statics.sportskeeda.com/editor/2018/04/c1432-1523089797-500.jpg",
+        "player": "Anukul Roy",
+        "type": "Batting Allrounder",
+        "nationality": "India",
+        "base": 150.0
+    },
+    {
+        "imgsrc": "https://www.crictracker.com/wp-content/uploads/2018/04/Ishan-Kishan-4.jpg",
+        "player": "Ishan Kishan",
+        "type": "WK-Batsman",
+        "nationality": "India",
+        "base": 150.0
+    },
+    {
+        "imgsrc": "https://resources.platform.iplt20.com/IPL/photo/2019/04/18/5da81a04-e138-4107-b0a6-fa607802924f/chahar11.jpg",
+        "player": "Rahul Chahar",
+        "type": "Bowler",
+        "nationality": "India",
+        "base": 150.0
+    },
+    {
+        "imgsrc": "https://starsunfolded.com/wp-content/uploads/2019/02/Anmolpreet-Singh.jpg",
+        "player": "Anmolpreet Singh",
+        "type": "Batsman",
+        "nationality": "India",
+        "base": 150.0
+    },
+    {
+        "imgsrc": "https://new-img.patrika.com/upload/2018/05/06/suryakumar_yadav_2761654_835x547-m.jpg",
+        "player": "Suryakumar Yadav",
+        "type": "Batsman",
+        "nationality": "India",
+        "base": 150.0
+    },
+    {
+        "imgsrc": "https://c.ndtvimg.com/2019-01/q5dkkseo_krunal-pandya_625x300_22_January_19.jpg",
+        "player": "Krunal Pandya",
+        "type": "Batting Allrounder",
+        "nationality": "India",
+        "base": 150.0
+    },
+    {
+        "imgsrc": "https://cdn.dnaindia.com/sites/default/files/styles/full/public/2019/04/04/809282-lasith-malinga-pti.jpg",
+        "player": "Lasith Malinga",
+        "type": "Bowler",
+        "nationality": "Sri Lanka",
+        "base": 150.0
+    },
+    {
+        "imgsrc": "https://www.hindustantimes.com/rf/image_size_1200x900/HT/p2/2019/09/30/Pictures/indian-team-practice-session_1864508e-e399-11e9-a8aa-54897fdfe8ad.jpg",
+        "player": "Jasprit Bumrah",
+        "type": "Bowler",
+        "nationality": "India",
+        "base": 150.0
+    },
+    {
+        "imgsrc": "https://img.republicworld.com/republic-prod/stories/promolarge/xxhdpi/tsyuiumzyqstaohv_1584949034.jpeg?tr=w-812,h-464",
+        "player": "Mitchell McClenaghan",
+        "type": "Bowler",
+        "nationality": "New Zealand",
+        "base": 150.0
+    },
+    {
+        "imgsrc": "https://www.newframe.com/wp-content/uploads/2019/04/image-24-155.jpg",
+        "player": "Quinton de Kock",
+        "type": "WK-Batsman",
+        "nationality": "South Africa",
+        "base": 150.0
+    },
+    {
+        "imgsrc": "https://akm-img-a-in.tosshub.com/indiatoday/images/story/201912/Pollard-770x433.jpeg?980mZbh.ilRGaD8F.s0cM11_2dHY70lw",
+        "player": "Kieron Pollard",
+        "type": "Batting Allrounder",
+        "nationality": "West Indies",
+        "base": 150.0
+    },
+    {
+        "imgsrc": "https://images.jagran.com/naidunia/ndnimg/12012020/12_01_2020-hardik_pandya09.jpg",
+        "player": "Hardik Pandya",
+        "type": "Batting Allrounder",
+        "nationality": "India",
+        "base": 150.0
+    },
+    {
+        "imgsrc": "https://media.gettyimages.com/photos/rohit-sharma-of-india-takes-a-shot-during-game-five-of-the-twenty20-picture-id1203498189?s=612x612",
+        "player": "Rohit Sharma",
+        "type": "Batsman",
+        "nationality": "India",
+        "base": 150.0
+    },
+    {
+        "imgsrc": "https://www.indiafantasy.com/wp-content/uploads/2019/03/IMG_20190309_073557-1200x1313.jpg",
+        "player": "Nikhil Naik",
+        "type": "Batsman",
+        "nationality": "India",
+        "base": 20.0
+    },
+    {
+        "imgsrc": "https://www.indiafantasy.com/wp-content/uploads/2019/03/IMG_20190309_073557-1200x1313.jpg",
+        "player": "Pravin Tambe",
+        "type": "Bowler",
+        "nationality": "India",
+        "base": 20.0
+    },
+    {
+        "imgsrc": "https://admin.thecricketer.com/weblab/sites/96c8b790-b593-bfda-0ba4-ecd3a9fdefc2/resources/images/site/banton_100801.jpg",
+        "player": "Tom Banton",
+        "type": "WK-Batsman",
+        "nationality": "England",
+        "base": 100.0
+    },
+    {
+        "imgsrc": "https://imageresizer.static9.net.au/cyxPMpBCUhm4INSkbWIdzCpZtzg=/0x0/https%3A%2F%2Fprod.static9.net.au%2Ffs%2F5c95c06b-493b-4b41-9b62-5450b5e4dd2e",
+        "player": "Chris Green",
+        "type": "Bowling Allrounder",
+        "nationality": "Australia",
+        "base": 20.0
+    },
+    {
+        "imgsrc": "https://st1.photogallery.ind.sh/wp-content/uploads/indiacom/manimaran-siddharth-201912-1577089088.jpg",
+        "player": "Manimaran Siddharth",
+        "type": "Bowler",
+        "nationality": "India",
+        "base": 20.0
+    },
+    {
+        "imgsrc": "https://starsunfolded.com/wp-content/uploads/2018/12/Varun-Chakravarthy.jpg",
+        "player": "Varun Chakravarthy",
+        "type": "Bowler",
+        "nationality": "India",
+        "base": 30.0
+    },
+    {
+        "imgsrc": "https://resources.platform.iplt20.com/IPL/photo/2017/04/22/2065ef00-4457-45d2-8094-44bfc9a0490a/ROY77263.jpg",
+        "player": "Rahul Tripathi",
+        "type": "Batsman",
+        "nationality": "India",
+        "base": 20.0
+    },
+    {
+        "imgsrc": "https://www.cricket.com.au/~/-/media/News/2019/08/6cumminscele2.ashx?w=1600",
+        "player": "Pat Cummins",
+        "type": "Bowler",
+        "nationality": "Australia",
+        "base": 200.0
+    },
+    {
+        "imgsrc": "https://img.cricketworld.com/images/f-071225/eoin-morgan.jpg",
+        "player": "Eoin Morgan",
+        "type": "Batsman",
+        "nationality": "England",
+        "base": 150.0
+    },
+    {
+        "imgsrc": "https://cdn.dnaindia.com/sites/default/files/styles/full/public/2019/05/30/830162-rinku-singh-kolkata-knight-riders-2019.jpg",
+        "player": "Rinku Singh",
+        "type": "Batsman",
+        "nationality": "India",
+        "base": 150.0
+    },
+    {
+        "imgsrc": "https://s01.sgp1.cdn.digitaloceanspaces.com/article/117182-jxvslykzxs-1554908652.jpg",
+        "player": "Siddhesh Lad",
+        "type": "Batsman",
+        "nationality": "India",
+        "base": 150.0
+    },
+    {
+        "imgsrc": "https://www.hindustantimes.com/rf/image_size_1200x900/HT/p2/2020/01/08/Pictures/vivo-ipl-2018-eliminator-kkr-v-rr_aeefdd06-31e2-11ea-866e-f0adb255fbdd.JPG",
+        "player": "Prasidh Krishna",
+        "type": "Bowler",
+        "nationality": "India",
+        "base": 150.0
+    },
+    {
+        "imgsrc": "https://img1.hscicdn.com/image/upload/f_auto/esci/i/cricket/cricinfo/1134108_1296x729.jpg",
+        "player": "Shivam Mavi",
+        "type": "Bowling Allrounder",
+        "nationality": "India",
+        "base": 150.0
+    },
+    {
+        "imgsrc": "https://i.ytimg.com/vi/zkztOMrBdAs/hqdefault.jpg",
+        "player": "Kamlesh Nagarkoti",
+        "type": "Bowler",
+        "nationality": "India",
+        "base": 150.0
+    },
+    {
+        "imgsrc": "https://www.cricket.com.au/~/-/media/News/2019/02/18Gurney1.ashx?w=1600",
+        "player": "Harry Gurney",
+        "type": "Bowler",
+        "nationality": "England",
+        "base": 150.0
+    },
+    {
+        "imgsrc": "https://iplstatic.s3.amazonaws.com/players/284/1092.png",
+        "player": "Sandeep Warrier",
+        "type": "Bowler",
+        "nationality": "India",
+        "base": 150.0
+    },
+    {
+        "imgsrc": "https://www.crictracker.com/wp-content/uploads/2018/04/Nitish-Rana-4.jpg",
+        "player": "Nitish Rana",
+        "type": "Batsman",
+        "nationality": "India",
+        "base": 150.0
+    },
+    {
+        "imgsrc": "https://statics.sportskeeda.com/editor/2018/02/1f08b-1518766580-800.jpg",
+        "player": "Lockie Ferguson",
+        "type": "Bowler",
+        "nationality": "New Zealand",
+        "base": 150.0
+    },
+    {
+        "imgsrc": "https://en.100mbsports.com/wp-content/uploads/2019/08/000_YA17E.jpg",
+        "player": "Shubman Gill",
+        "type": "Batsman",
+        "nationality": "India",
+        "base": 150.0
+    },
+    {
+        "imgsrc": "https://images.indianexpress.com/2017/09/kuldeep-yadav-7591.jpg",
+        "player": "Kuldeep Yadav",
+        "type": "Bowler",
+        "nationality": "India",
+        "base": 150.0
+    },
+    {
+        "imgsrc": "https://timesofindia.indiatimes.com/thumb/msid-76027003,width-1200,height-900,resizemode-4/.jpg",
+        "player": "Sunil Narine",
+        "type": "Bowler",
+        "nationality": "West Indies",
+        "base": 150.0
+    },
+    {
+        "imgsrc": "https://www.thestatesman.com/wp-content/uploads/2018/11/Andre-Russell.jpg",
+        "player": "Andre Russell",
+        "type": "Bowling Allrounder",
+        "nationality": "West Indies",
+        "base": 150.0
+    },
+    {
+        "imgsrc": "https://cricketaddictor.com/wp-content/uploads/2019/11/295217.jpg",
+        "player": "Dinesh Karthik",
+        "type": "WK-Batsman",
+        "nationality": "India",
+        "base": 150.0
+    },
+    {
+        "imgsrc": "https://www.sydneysixers.com.au/-/media/sydneysixerscomau/Players/Tom%20Curran/Tom-Curran0202-Web.ashx",
+        "player": "Tom Curran",
+        "type": "Bowling Allrounder",
+        "nationality": "England",
+        "base": 100.0
+    },
+    {
+        "imgsrc": "https://admin.thecricketer.com/weblab/sites/96c8b790-b593-bfda-0ba4-ecd3a9fdefc2/resources/images/site/tyeheadshot-min.jpg",
+        "player": "Andrew Tye",
+        "type": "Bowler",
+        "nationality": "Australia",
+        "base": 100.0
+    },
+    {
+        "imgsrc": "https://starsunfolded.com/wp-content/uploads/2018/02/Aniruddha-Joshi-1280x720.jpg",
+        "player": "Aniruddha Joshi",
+        "type": "Bowling Allrounder",
+        "nationality": "India",
+        "base": 20.0
+    },
+    {
+        "imgsrc": "https://img1.hscicdn.com/image/upload/f_auto/esci/i/cricket/cricinfo/1163821_1296x729.jpg",
+        "player": "Oshane Thomas",
+        "type": "Bowler",
+        "nationality": "West Indies",
+        "base": 50.0
+    },
+    {
+        "imgsrc": "https://admin.thecricketer.com/weblab/Sites/96c8b790-b593-bfda-0ba4-ecd3a9fdefc2/resources/images/site/millerheadshot-min.jpg",
+        "player": "David Miller",
+        "type": "Batsman",
+        "nationality": "South Africa",
+        "base": 75.0
+    },
+    {
+        "imgsrc": "https://www.indiafantasy.com/wp-content/uploads/Untitled-design-2-1.jpg",
+        "player": "Kartik Tyagi",
+        "type": "Bowler",
+        "nationality": "India",
+        "base": 20.0
+    },
+    {
+        "imgsrc": "https://www.crictracker.com/wp-content/uploads/2020/01/Akash-Singh.jpg",
+        "player": "Akash Singh",
+        "type": "Bowler",
+        "nationality": "India",
+        "base": 20.0
+    },
+    {
+        "imgsrc": "https://s3.ap-southeast-1.amazonaws.com/images.deccanchronicle.com/dc-Cover-jll2jl6m6d25fiq9jal1l8qf53-20180803114702.Medi.jpeg",
+        "player": "Anuj Rawat",
+        "type": "WK-Batsman",
+        "nationality": "India",
+        "base": 20.0
+    },
+    {
+        "imgsrc": "https://timesofindia.indiatimes.com/thumb/msid-74038868,width-1200,height-900,resizemode-4/.jpg",
+        "player": "Yashasvi Jaiswal",
+        "type": "Batsman",
+        "nationality": "India",
+        "base": 20.0
+    },
+    {
+        "imgsrc": "https://cricketaddictor.com/wp-content/uploads/2018/01/Unadkat-1.jpg",
+        "player": "Jaydev Unadkat",
+        "type": "Bowler",
+        "nationality": "India",
+        "base": 100.0
+    },
+    {
+        "imgsrc": "https://img.theweek.in/content/dam/week/news/sports/images/2020/4/7/robin-uthappa-bcci.jpg",
+        "player": "Robin Uthappa",
+        "type": "WK-Batsman",
+        "nationality": "India",
+        "base": 150.0
+    },
+    {
+        "imgsrc": "https://i.ytimg.com/vi/8THGPIvpf8M/maxresdefault.jpg",
+        "player": "Rahul Tewatia",
+        "type": "Bowler",
+        "nationality": "India",
+        "base": 150.0
+    },
+    {
+        "imgsrc": "https://resources.platform.iplt20.com/IPL/photo/2018/04/12/e09128db-5a6b-4370-b982-b25646c57724/Mayank.jpg",
+        "player": "Mayank Markande",
+        "type": "Bowler",
+        "nationality": "India",
+        "base": 150.0
+    },
+    {
+        "imgsrc": "https://resources.platform.iplt20.com/IPL/photo/2018/04/26/4a95930a-de51-45f7-bec6-8ffcff0e8cf3/ankit.jpg",
+        "player": "Ankit Rajpoot",
+        "type": "Bowler",
+        "nationality": "India",
+        "base": 150.0
+    },
+    {
+        "imgsrc": "https://images.indianexpress.com/2019/04/varun-aaron-m.jpg",
+        "player": "Varun Aaron",
+        "type": "Bowler",
+        "nationality": "India",
+        "base": 150.0
+    },
+    {
+        "imgsrc": "https://cricketaddictor.com/wp-content/uploads/2019/04/IMG_8212.jpg",
+        "player": "Shreyas Gopal",
+        "type": "Bowling Allrounder",
+        "nationality": "India",
+        "base": 150.0
+    },
+    {
+        "imgsrc": "https://www.astrosage.com/celebrity-horoscope/img/Shashank-Singh-horoscope.jpg",
+        "player": "Shashank Singh",
+        "type": "Batsman",
+        "nationality": "India",
+        "base": 150.0
+    },
+    {
+        "imgsrc": "https://sportstar.thehindu.com/cricket/article29787623.ece/ALTERNATES/LANDSCAPE_1200/SANJUSAMSON",
+        "player": "Sanju Samson",
+        "type": "WK-Batsman",
+        "nationality": "India",
+        "base": 150.0
+    },
+    {
+        "imgsrc": "https://nenow.in/wp-content/uploads/2019/12/Story-10-6.jpg",
+        "player": "Riyan Parag",
+        "type": "Batsman",
+        "nationality": "India",
+        "base": 150.0
+    },
+    {
+        "imgsrc": "https://starsunfolded.com/wp-content/uploads/2017/04/Manan-Vohra-1280x720.jpg",
+        "player": "Manan Vohra",
+        "type": "Batsman",
+        "nationality": "India",
+        "base": 150.0
+    },
+    {
+        "imgsrc": "https://iplstatic.s3.amazonaws.com/players/284/2970.png",
+        "player": "Mahipal Lomror",
+        "type": "Batting Allrounder",
+        "nationality": "India",
+        "base": 150.0
+    },
+    {
+        "imgsrc": "https://akm-img-a-in.tosshub.com/indiatoday/images/story/202004/josbuttler-770x433.jpeg?x.0DvF.4RUm0ycytqePNKRFrNkcQxo29",
+        "player": "Jos Buttler",
+        "type": "WK-Batsman",
+        "nationality": "England",
+        "base": 150.0
+    },
+    {
+        "imgsrc": "https://www.cricbuzz.com/stats/img/faceImages/11540.jpghttps://www.essentiallysports.com/wp-content/uploads/Jofra-Archer-2.jpg",
+        "player": "Jofra Archer",
+        "type": "Bowling Allrounder",
+        "nationality": "England",
+        "base": 150.0
+    },
+    {
+        "imgsrc": "https://admin.thecricketer.com/weblab/sites/96c8b790-b593-bfda-0ba4-ecd3a9fdefc2/resources/images/site/stokes190801.jpg",
+        "player": "Ben Stokes",
+        "type": "Batting Allrounder",
+        "nationality": "England",
+        "base": 150.0
+    },
+    {
+        "imgsrc": "https://www.hindustantimes.com/rf/image_size_1200x900/HT/p2/2019/08/05/Pictures/britain-cricket-england-australia-ashes_58065536-b764-11e9-98cb-e738ad509720.jpg",
+        "player": "Steven Smith",
+        "type": "Batsman",
+        "nationality": "Australia",
+        "base": 150.0
+    },
+    {
+        "imgsrc": "https://timesofindia.indiatimes.com/thumb/msid-57994923,width-1200,height-900,resizemode-4/.jpg",
+        "player": "Sanjay Yadav",
+        "type": "Batsman",
+        "nationality": "India",
+        "base": 20.0
+    },
+    {
+        "imgsrc": "https://www.crictracker.com/wp-content/uploads/2019/12/Abdul-Samad.jpg",
+        "player": "Abdul Samad",
+        "type": "Batsman",
+        "nationality": "India",
+        "base": 20.0
+    },
+    {
+        "imgsrc": "https://sportzwiki.com/wp-content/uploads/2019/12/Fabian-Allen.jpg",
+        "player": "Fabian Allen",
+        "type": "Batting Allrounder",
+        "nationality": "West Indies",
+        "base": 50.0
+    },
+    {
+        "imgsrc": "https://cdn.telanganatoday.com/wp-content/uploads/2019/11/Sandeep-on-a-roll-in-T20.jpg",
+        "player": "Bavanaka Sandeep",
+        "type": "Batting Allrounder",
+        "nationality": "India",
+        "base": 20.0
+    },
+    {
+        "imgsrc": "https://s3.ap-southeast-1.amazonaws.com/images.deccanchronicle.com/dc-Cover-aoqblpq4pjrfqhc58j6r445he7-20181211182938.Medi.jpeg",
+        "player": "Mitchell Marsh",
+        "type": "Batting Allrounder",
+        "nationality": "Australia",
+        "base": 200.0
+    },
+    {
+        "imgsrc": "https://images.jagran.com/naidunia/ndnimg/03122019/03_12_2019-priyam_garg.jpg",
+        "player": "Priyam Garg",
+        "type": "Batsman",
+        "nationality": "India",
+        "base": 20.0
+    },
+    {
+        "imgsrc": "https://new-img.patrika.com/upload/2019/12/20/virat_singh_5532307_835x547-m.jpeg",
+        "player": "Virat Singh",
+        "type": "Batting Allrounder",
+        "nationality": "India",
+        "base": 20.0
+    },
+    {
+        "imgsrc": "https://cdn.dnaindia.com/sites/default/files/styles/full/public/2019/07/21/850884-saha-wriddhiman-072219.jpg",
+        "player": "Wriddhiman Saha",
+        "type": "WK-Batsman",
+        "nationality": "India",
+        "base": 150.0
+    },
+    {
+        "imgsrc": "https://static.toiimg.com/thumb/msid-69873078,width-1070,height-580,imgsize-1157733,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg",
+        "player": "Vijay Shankar",
+        "type": "Batting Allrounder",
+        "nationality": "India",
+        "base": 150.0
+    },
+    {
+        "imgsrc": "https://s3.ap-southeast-1.amazonaws.com/images.deccanchronicle.com/dc-Cover-bc2rd14asejoeimk5bl8b7bi66-20170221011615.Medi.jpeg",
+        "player": "T Natarajan",
+        "type": "Bowler",
+        "nationality": "India",
+        "base": 150.0
+    },
+    {
+        "imgsrc": "https://timesofindia.indiatimes.com/thumb/msid-66614071,width-1200,height-900,resizemode-4/.jpg",
+        "player": "K Khaleel Ahmed",
+        "type": "Bowler",
+        "nationality": "India",
+        "base": 150.0
+    },
+    {
+        "imgsrc": "https://s01.sgp1.digitaloceanspaces.com/large/838210-58624-dlvqhfycfg-1495280425.jpg",
+        "player": "Siddarth Kaul",
+        "type": "Bowler",
+        "nationality": "India",
+        "base": 150.0
+    },
+    {
+        "imgsrc": "https://starsunfolded.com/wp-content/uploads/2018/03/Shreevats-Goswami.jpg",
+        "player": "Shreevats Goswami",
+        "type": "WK-Batsman",
+        "nationality": "India",
+        "base": 150.0
+    },
+    {
+        "imgsrc": "https://starsunfolded.com/wp-content/uploads/2018/03/Shahbaz-Nadeem-1280x720.jpg",
+        "player": "Shahbaz Nadeem",
+        "type": "Bowler",
+        "nationality": "India",
+        "base": 150.0
+    },
+    {
+        "imgsrc": "https://resources.platform.iplt20.com/IPL/photo/2017/04/10/020922f2-5fa4-45d6-a595-ee6c0ce46893/Sandeep-Sharma.jpg",
+        "player": "Sandeep Sharma",
+        "type": "Bowler",
+        "nationality": "India",
+        "base": 150.0
+    },
+    {
+        "imgsrc": "https://cricketaddictor.com/wp-content/uploads/2019/04/Rashid-Khan-e1556606651891.jpg",
+        "player": "Rashid Khan",
+        "type": "Bowler",
+        "nationality": "Afghanistan",
+        "base": 150.0
+    },
+    {
+        "imgsrc": "https://www.hindustantimes.com/rf/image_size_1200x900/HT/p2/2019/03/31/Pictures/mohammed-nabi_4b2e9bc8-53c5-11e9-b593-df9071890b8d.jpg",
+        "player": "Mohammad Nabi",
+        "type": "Bowling Allrounder",
+        "nationality": "Afghanistan",
+        "base": 150.0
+    },
+    {
+        "imgsrc": "https://s3.ap-southeast-1.amazonaws.com/images.asianage.com/images/aa-Cover-d3chb4rgem199cim20o3ulch64-20180411023841.Medi.jpeg",
+        "player": "Manish Pandey",
+        "type": "Batsman",
+        "nationality": "India",
+        "base": 150.0
+    },
+    {
+        "imgsrc": "https://admin.thecricketer.com/weblab/sites/96c8b790-b593-bfda-0ba4-ecd3a9fdefc2/resources/images/site/williamson130702-min.jpg",
+        "player": "Kane Williamson",
+        "type": "Batsman",
+        "nationality": "New Zealand",
+        "base": 150.0
+    },
+    {
+        "imgsrc": "https://image-cdn.essentiallysports.com/wp-content/uploads/20200327175208/956DD095-5537-42D3-9981-143EC1847397.png",
+        "player": "Jonny Bairstow",
+        "type": "WK-Batsman",
+        "nationality": "England",
+        "base": 150.0
+    },
+    {
+        "imgsrc": "https://cricketaddictor.com/wp-content/uploads/2019/04/GAZI_1576.jpg",
+        "player": "David Warner",
+        "type": "Batsman",
+        "nationality": "Australia",
+        "base": 150.0
+    },
+    {
+        "imgsrc": "https://s01.sgp1.digitaloceanspaces.com/large/876789-88022-hwjowkpxms-1524581069.JPG",
+        "player": "Billy Stanlake",
+        "type": "Bowler",
+        "nationality": "Australia",
+        "base": 150.0
+    },
+    {
+        "imgsrc": "https://admin.thecricketer.com/weblab/sites/96c8b790-b593-bfda-0ba4-ecd3a9fdefc2/resources/images/site/kumar110301.jpg",
+        "player": "Bhuvneshwar Kumar",
+        "type": "Bowler",
+        "nationality": "India",
+        "base": 150.0
+    },
+    {
+        "imgsrc": "https://www.thenewsminute.com/sites/default/files/styles/news_detail/public/Basil-Thampi-Facebook-2.jpg?itok=9NJDg7Zg",
+        "player": "Basil Thampi",
+        "type": "Bowler",
+        "nationality": "India",
+        "base": 150.0
+    },
+    {
+        "imgsrc": "https://www.hindustantimes.com/rf/image_size_960x540/HT/p2/2017/05/23/Pictures/patiala-hindustan-cricketer-november-bhushan-abhishek-sharma_1be7e5cc-3fbd-11e7-a718-97a052f84fc6.jpg",
+        "player": "Abhishek Sharma",
+        "type": "Batting Allrounder",
+        "nationality": "India",
+        "base": 150.0
+    }
 ]

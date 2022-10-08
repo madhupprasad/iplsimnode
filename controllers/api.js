@@ -3,14 +3,6 @@ import { room } from "../index.js";
 
 const router = express.Router();
 
-router.get("/", async (req, res) => {
-    try {
-        res.send("poda /");
-    } catch (error) {
-        res.send(error);
-    }
-});
-
 router.post("/get_info", async (req, res) => {
     try {
         let roomId = req.body.roomId;
