@@ -15,10 +15,13 @@ export class Room {
     roomId_count_map = {};
     roomId_players_balance_map = {};
 
+    room_Id_request_count_map = {};
+
     // maps for game play
     roomId_sold_cricketers_map = {};
     roomId_current_cricketer_map = {};
     roomId_auctioned_cricketer_map = {};
+    roomId_playerId_sold_map = {};
 
     roomId_timerId_map = {};
 
@@ -106,8 +109,6 @@ export class Room {
         this.roomId_players_map[roomId] = this.roomId_players_map[roomId]
             ? { ...this.roomId_players_map[roomId], [playerId]: playerName }
             : { [playerId]: playerName };
-
-        console.log("player data saved : ", this.roomId_players_map[roomId]);
     };
 
     isCountReachedMax = (roomId) => {
@@ -140,11 +141,16 @@ export class Room {
         }
     };
 
+    updateBalanceOfPlayer = ({ roomId, playerId, amount }) => {
+        if (this.roomId_players_balance_map?.[roomId]?.[playerId]) {
+            this.roomId_players_balance_map[roomId][playerId] -= amount;
+        }
+    };
+
     getNextPlayer = (roomId) => {
         // eslint-disable-next-line no-constant-condition
         while (true) {
             let pIndex = getRandomInt(this.cricketersDataLength);
-            console.log("random number is ", pIndex);
             let nextPlayer = this.cricketersData[pIndex];
             if (
                 this.roomId_auctioned_cricketer_map[roomId] &&
@@ -171,21 +177,40 @@ export class Room {
         this.roomId_current_cricketer_map[roomId] = data;
     };
 
-    getCurrentPlayer = (roomId) => {
+    getCurrentCricketer = (roomId) => {
         return this.roomId_current_cricketer_map[roomId];
     };
 
-    updateCurrentPlayerStatus = ({ roomId, amount, playerId }) => {
-        let curr = this.getCurrentPlayer(roomId);
-        curr["currentBid"] += amount;
+    updateCurrentCricketerStatus = ({ roomId, amount, playerId }) => {
+        let curr = this.getCurrentCricketer(roomId);
+
+        // balance check
+        const balance = this.getBalanceOfPlayer({ roomId, playerId });
+        const amountToBeSpent = (curr["latestBid"] || curr["base"]) + amount;
+        if (amountToBeSpent > balance) {
+            return true;
+        }
+
+        curr["is_sold"] = true;
+        curr["latestBid"] = (curr["latestBid"] || curr["base"]) + amount;
         curr["highestBidderId"] = playerId;
-        console.log(playerId, "has updated", curr);
+        curr["highestBidderName"] = this.getPlayerName(roomId, playerId);
         this.saveCurrentPlayer(roomId, curr);
+    };
+
+    updateSoldCricketerMap = (roomId, data) => {
+        this.roomId_sold_cricketers_map[roomId] = this
+            .roomId_sold_cricketers_map[roomId]
+            ? {
+                  ...this.roomId_sold_cricketers_map[roomId],
+                  [data["player"]]: data,
+              }
+            : { [data["player"]]: data };
     };
 
     refreshNewPlayer = ({ roomId, forceRefresh = false }) => {
         let nPlayer;
-        const currentPlayer = this.getCurrentPlayer(roomId);
+        const currentPlayer = this.getCurrentCricketer(roomId);
         if (currentPlayer && !forceRefresh) {
             nPlayer = currentPlayer;
         } else {
@@ -194,5 +219,47 @@ export class Room {
             this.saveCurrentPlayer(roomId, nPlayer);
             this.saveAuctionedPlayer(roomId, nPlayer);
         }
+    };
+
+    restartTimer = ({ roomId, io, onZero }) => {
+        // Clear previous timer
+        if (this.roomId_timerId_map[roomId]) {
+            clearInterval(this.roomId_timerId_map[roomId]);
+        }
+        //Start Timer
+        let timerSeconds = 10;
+        this.roomId_timerId_map[roomId] = setInterval(() => {
+            if (timerSeconds <= 0) {
+                onZero();
+                clearInterval(this.roomId_timerId_map[roomId]);
+            }
+            io.to(roomId).emit("timer", timerSeconds);
+            --timerSeconds;
+        }, 1000);
+    };
+
+    updatePlayerCricketerMap = ({ roomId, playerId, currCricketer }) => {
+        let isRoomExist = this.roomId_playerId_sold_map?.[roomId];
+        let isPlayerExist = this.roomId_playerId_sold_map?.[roomId]?.[playerId];
+        if (isRoomExist) {
+            if (isPlayerExist) {
+                this.roomId_playerId_sold_map[roomId][playerId] = [
+                    ...this.roomId_playerId_sold_map[roomId][playerId],
+                    currCricketer,
+                ];
+            } else {
+                this.roomId_playerId_sold_map[roomId][playerId] = [
+                    currCricketer,
+                ];
+            }
+        } else {
+            this.roomId_playerId_sold_map[roomId] = {
+                [playerId]: [currCricketer],
+            };
+        }
+    };
+
+    getInfo = (roomId) => {
+        return this.roomId_playerId_sold_map[roomId];
     };
 }

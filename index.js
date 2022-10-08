@@ -13,7 +13,9 @@ dotenv.config();
 var PORT = env.PORT || 3000;
 
 const app = express();
-const server = http.createServer(app);
+const server = http.createServer(app, {
+    origin: true,
+});
 const io = new Server(server);
 
 // init room class
@@ -98,27 +100,23 @@ io.on("connection", (socket) => {
     socket.on("start_game", (data) => {
         const { roomId } = JSON.parse(data);
 
-        // Clear previous timer
-        if (room.roomId_timerId_map[roomId]) {
-            clearInterval(room.roomId_timerId_map[roomId]);
-        }
-        //Start Timer
-        let timerSeconds = 10;
-        room.roomId_timerId_map[roomId] = setInterval(function () {
-            if (timerSeconds <= 0) {
+        room.restartTimer({
+            roomId,
+            io,
+            onZero: () => {
                 io.to(roomId).emit("timeout");
-                clearInterval(this);
-            }
-            io.to(roomId).emit("timer", timerSeconds);
-            --timerSeconds;
-        }, 1000);
+            },
+        });
 
         function foo() {
             const { roomId, playerId } = JSON.parse(data);
             console.log("Game started", data);
 
             room.refreshNewPlayer({ roomId, playerId });
-            io.to(roomId).emit("cricketer_data", room.getCurrentPlayer(roomId)); // access from current player map
+            io.to(roomId).emit(
+                "cricketer_data",
+                room.getCurrentCricketer(roomId)
+            ); // access from current player map
 
             balance_timer_intervalId = setInterval(() => {
                 io.to(playerId).emit(
@@ -131,65 +129,98 @@ io.on("connection", (socket) => {
     });
 
     // bid action
-    socket.on("after_bid", (data) => {
+    socket.on("on_bid", (data) => {
         const { amount, playerId, roomId } = JSON.parse(data);
 
-        // Clear previous timer
-        if (room.roomId_timerId_map[roomId]) {
-            console.log("Clear ????");
-            clearInterval(room.roomId_timerId_map[roomId]);
+        // ATOMIC ----
+        const error = room.updateCurrentCricketerStatus({
+            roomId,
+            playerId,
+            amount,
+        });
+        // ATOMIC ----
+
+        if (error) {
+            io.to(playerId).emit("out_of_balance");
+            return;
         }
 
-        // ATOMIC
-        room.updateCurrentPlayerStatus({ roomId, playerId, amount });
-
         const playerName = room.getPlayerName(roomId, playerId);
-        const currCricketerName = room.getCurrentPlayer(roomId);
+        const currCricketer = room.getCurrentCricketer(roomId);
 
-        console.log("a bid by ", playerName, " for +", amount);
+        console.log(playerName, "-", currCricketer);
 
-        const res = {
-            playerName: playerName,
-            highestBid: currCricketerName["currentBid"],
-        };
-
-        //Start Timer
-        let timerSeconds = 10;
-        room.roomId_timerId_map[roomId] = setInterval(function () {
-            if (timerSeconds <= 0) {
+        room.restartTimer({
+            roomId,
+            io,
+            onZero: () => {
                 io.to(roomId).emit("timeout");
-                clearInterval(room.roomId_timerId_map[roomId]);
-            }
-            io.to(roomId).emit("timer", timerSeconds);
-            --timerSeconds;
-        }, 1000);
+            },
+        });
 
-        io.to(roomId).emit("after_bid", res);
+        io.to(roomId).emit("on_bid", {
+            playerName: playerName,
+            highestBid: currCricketer["latestBid"],
+        });
+
+        io.to(playerId).emit(
+            "crystal",
+            room.getBalanceOfPlayer({ roomId, playerId }) -
+                currCricketer["latestBid"]
+        );
     });
 
-    //Next player
-    socket.on("next_player", (data) => {
-        console.log("next player called ... ");
-        // eslint-disable-next-line no-unused-vars
+    socket.on("transaction_end", (data) => {
         const { roomId, playerId } = JSON.parse(data);
 
-        // Clear previous timer
-        if (room.roomId_timerId_map[roomId]) {
-            clearInterval(room.roomId_timerId_map[roomId]);
-        } //Start Timer
-        let timerSeconds = 10;
-        room.roomId_timerId_map[roomId] = setInterval(function () {
-            if (timerSeconds <= 0) {
-                io.to(roomId).emit("timeout");
-                clearInterval(room.roomId_timerId_map[roomId]);
-            }
-            io.to(roomId).emit("timer", timerSeconds);
-            --timerSeconds;
-        }, 1000);
+        // make sure all players sent request
+        const count = room.getRoomCount(roomId);
+        room.room_Id_request_count_map[roomId] =
+            (room.room_Id_request_count_map[roomId] || 0) + 1;
+        const allIn = room.room_Id_request_count_map[roomId] === count;
 
-        //
-        room.refreshNewPlayer({ roomId, forceRefresh: true });
-        io.to(roomId).emit("cricketer_data", room.getCurrentPlayer(roomId)); // access from current player map
+        if (allIn) {
+            room.room_Id_request_count_map[roomId] = 0;
+
+            console.log(playerId);
+            const currCricketer = room.getCurrentCricketer(roomId);
+            // if sold
+            if (currCricketer["is_sold"]) {
+                const amount = currCricketer["latestBid"];
+                const playerId = currCricketer["highestBidderId"];
+                room.updateBalanceOfPlayer({ roomId, playerId, amount });
+                room.updateSoldCricketerMap(roomId, currCricketer);
+                room.updatePlayerCricketerMap({
+                    roomId,
+                    playerId,
+                    currCricketer,
+                });
+                console.log("sold to : ", room.getPlayerName(roomId, playerId));
+                io.to(roomId).emit(
+                    "sold",
+                    room.getPlayerName(roomId, playerId)
+                );
+            } else {
+                //if not sold
+                console.log("UnSold : ", currCricketer["player"]);
+                io.to(roomId).emit("unsold");
+            }
+            // ----------- Thank you, Next ------------ //
+            room.restartTimer({
+                roomId,
+                io,
+                onZero: () => {
+                    io.to(roomId).emit("timeout");
+                },
+            });
+            room.refreshNewPlayer({ roomId, forceRefresh: true });
+            io.to(roomId).emit(
+                "cricketer_data",
+                room.getCurrentCricketer(roomId)
+            ); // access from current player map
+
+            io.to(roomId).emit("crystal", "0");
+        }
     });
 
     // disconnect player
@@ -218,13 +249,13 @@ io.on("connection", (socket) => {
     });
 });
 
-export { io };
+export { io, room };
 
 // ------ REST API ---------
 
 app.use(express.json());
 app.use(cors());
-app.use("/test", testRouter);
+app.use("/api", testRouter);
 
 app.get("/", (req, res) => {
     res.send("Hello");
