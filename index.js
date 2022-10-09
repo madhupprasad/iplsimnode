@@ -8,8 +8,12 @@ import { clearInterval } from "timers";
 import { Room } from "./room_class.js";
 import * as dotenv from "dotenv";
 import { env } from "process";
+import path from "path";
 dotenv.config();
+import { fileURLToPath } from "url";
 
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 var PORT = env.PORT || 3000;
 
 const app = express();
@@ -17,6 +21,9 @@ const server = http.createServer(app, {
     origin: true,
 });
 const io = new Server(server);
+
+var dir = path.join(__dirname, "images");
+app.use(express.static(dir));
 
 // init room class
 let cricketersRawData = fs.readFileSync("cricketers.json");

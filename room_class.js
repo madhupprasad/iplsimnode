@@ -4,6 +4,13 @@ import { addAdditionalDetails, getRandomInt } from "./utils.js";
 export class Room {
     constructor(cricketersRawData) {
         this.cricketersData = JSON.parse(cricketersRawData);
+        for (let item of this.cricketersData) {
+            item["image"] =
+                "http://10.0.2.2:3000/" +
+                lodash.snakeCase(item["player"]) +
+                ".jpg";
+        }
+        console.log(this.cricketersData);
         this.cricketersDataLength = this.cricketersData.length - 1;
     }
 
